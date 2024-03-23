@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Trending Destinations.... </title>
+    <link rel="shortcut icon" href="/assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+    <style>
+ .gallery-container {
+    display: flex;
+    overflow: hidden;
+    width: 500%; /* Adjust width to accommodate five sections */
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-section {
+    flex: 0 0 20%; /* Each section takes up one-fifth of the container width */
+}
+</style>
+</head>
+
+<body>
+  
+    <!----- ############# Header ################ ----->
+    
+   <header class="container-fluid">
+       <div class="header-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 d-none d-sm-block contacthd">
+                  <p><a href=""> 
+                    <i class="fab fa-microsoft"  style="color: #FFF;"> Travel</i> </a>
+                    <span>/</span>
+                    <a href="">  <i class="fab fa-microsoft"  style="color: #FFF;"> Explore </i> </a>
+                    <span>/</span> 
+                    <a href=""><i class="fab fa-microsoft"  style="color: #FFF;"> Experience </i> </a></p>
+                </div>
+                <div class="col-sm-8">
+
+                  <ul class="social-login">
+                    <li>
+                      <a href="https://www.linkedin.com/in/aryaman-karmarkar-735a45258" style="color: #FFF;">
+                      <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://account.microsoft.com/profile/">  
+                      <i class="fab fa-microsoft"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      <i class="fab fa-instagram"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Supreme24">
+                      <i class="fab fa-github"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  
+                  <ul class="email">
+                    <li><i class="fa fa-envelope"></i>karmarkararyaman123@gmail.com </li>
+                  </ul>
+
+                  <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+                </div>
+              </div>
+            </div>
+       </div>
+
+       <div id="menu-jk" class="header-bottom" style="background-color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-3">
+                        <img src="assets/images/logo.png" alt="">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="navs d-none d-md-block col-md-9">
+                        <ul>
+                            <li><a href="index.html" style="color: darkgreen;">Home</a></li>
+                            <li><a href="about_us.html" style="color: darkgreen;">About Us</a></li>
+                        <li><a href="packages.html" style="color: darkgreen;">Packages</a></li>
+
+                            <li class="dropdown">
+                                <a href="" class="dropbtn" style="color: darkgreen;">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="/hotel destinations/index.html" style="color: darkblue;"> Hotel Packages </a>
+                                    <a href="#" style="color: darkblue;"> Travel Bookings</a>
+                                    <a href="/Weather/weather.html" style="color: darkblue;"> Weather Information </a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="" class="dropbtn" style="color: darkgreen;">Destinations</a>
+                                <div class="dropdown-content">
+                                    <a href="/gallery/index.html" style="color: darkblue;"> Gallery Images </a>
+                                    <a href="/trending.html" style="color: darkblue;"> Trending Destinations </a>
+                                </div>
+                            </li>
+                            <li><a href="/blog.html" style="color: darkgreen;">Blog</a></li>
+                            <li><a href="/contacts/contact us form/contact.html" style="color: darkgreen;">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </header>
+   
+       <!--  ************************* Page Title Starts Here ************************** -->
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2> Trending Destinations... </h2>
+                <ul>
+                    <li> <a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><i class="fas fa-angle-double-right"></i> Our Packages</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!--################### Destinations Starts Here #######################--->
+    
+    <section id="header" class="jumbotron text-center" style="margin-top: 4px;">
+     <h1 class="display-3" style="font-size: 40px; white-space: nowrap; font-weight: 700; color: orangered; backdrop-filter: blur(40%);">
+        "Wanderlust Collection: Uncover the Beauty of Our Destinations" </h1>
+     <div class="btn" style="margin-top: 15px;">
+        <button type="button" class="btn btn-primary" id="prevButton">Previous</button>
+        <button type="button" class="btn btn-secondary" id= "nextButton" style="padding: 5px 27px;">Next</button>
+     </div>
+    </section>
+ 
+  <section id="gallery" class="gallery-container">
+  <div class="gallery-section" id="section-1">
+  <div class="container">
+    <div class="row">
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/amritsar.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Legendary Sikh Shrine Golden Temple of Amritsar..</h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          For those planning on visiting this iconic Gurudwara, it's advised that you target the time frame spanning October through March this the best time to visit Amritsar. 
+          During this period, temperature levels typically fall within an agreeable range of roughly 10°C to 25°C, offering some relief from more extreme weather patterns seen in other months of the year.
+          Ample chances are offered to become fully immersed in local cultural practices via numerous festivals hosted on-site throughout each passing year. 
+          A couple of notable examples include Guru Nanak Jayanti held every November and Baisakhi coming up each April. 
+          Additionally, don't miss out on Diwali, a highly significant yearly event taking place between October and November.
+          The Golden Temple is spiritually the most significant shrine in Sikhism. It became a centre of the Singh Sabha Movement between 1883 and the 1920s, and the Punjabi Suba movement between 1947 and 1966. In the early 1980s, the gurdwara became a centre of conflict between the Indian government and a radical movement led by Jarnail Singh Bhindranwale.[13] In 1984, Prime Minister Indira Gandhi sent in the Indian Army as part of Operation Blue Star, leading to deaths of more than 1,000 soldiers, militants and civilians, as well as causing much damage to the gurdwara and the destruction of Akal Takht. 
+          The gurdwara complex was rebuilt again after the 1984 damage.
+        </p>
+       <a href="https://www.britannica.com/topic/Golden-Temple" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+
+     <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Swiss.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Swiss Alps.. </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Snow-covered mountains, charming towns and flower-strewn meadows make the Swiss Alps a year-round fairy tale destination. 
+          Visit in the winter for world-class skiing (and après-ski fondue and drinks) in locales such as the exclusive St. Moritz and the picturesque Zermatt, home of the craggy Matterhorn. 
+          Opt for warmer months to hike through the verdant valleys of Swiss National Park or attend lively festivals in the foothill city of Montreux. 
+          Regardless of the time of year, no trip would be complete without a visit to the Jungfrau Region, where you can experience idyllic mountain villages like Grindelwald and Mürren or take the Jungfrau Railway to Europe's highest railway station.
+          Skiers flock to Zermatt every winter to experience some of the best slopes in the world.
+          The Alpine region of Switzerland, conventionally referred to as the Swiss Alps,[1] represents a major natural feature of the country and is, along with the Swiss Plateau and the Swiss portion of the Jura Mountains, one of its three main physiographic regions. The Swiss Alps extend over both the Western Alps and the Eastern Alps, encompassing an area sometimes called Central Alps. 
+          While the northern ranges from the Bernese Alps to the Appenzell Alps are entirely in Switzerland, the southern ranges from the Mont Blanc massif to the Bernina massif are shared with other countries such as France, Italy, Austria and Liechtenstein.
+        </p>
+       <a href="https://www.britannica.com/place/Bernese-Alps" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+     <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/azure.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Azores Islands, Portugal </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Although technically part of Portugal, the Azores islands seem like a world away from the mainland. 
+          The remote archipelago of volcanic islands sits in the mid-Atlantic, and is often described as the “Hawaii of Europe”. 
+          And with rugged landscapes and deep-blue waters, it’s not hard to see why – although its temperatures are subtropical and milder. 
+          This is ideal if you need to get away from city heat in the summer. 
+          The Azores is a place to escape into natural beauty, and it’s home to two of Portugal’s 15 Unesco World Heritage Sites including the historic city of Angra do Heroismo on the island of Terceira and the ancient vineyards of Pico. 
+          If you’re short on time and aren’t sure where to start – the largest and most accessible of the islands is Sao Miguel.
+          There are nine major Azorean islands and an islet cluster, in three main groups. These are Flores and Corvo, to the west; Graciosa, Terceira, São Jorge, Pico, and Faial in the centre; and São Miguel, Santa Maria, and the Formigas islets to the east. They extend for more than 600 km (370 mi) and lie in a northwest–southeast direction. All of the islands have volcanic origins, although some, such as Santa Maria, have had no recorded activity in the time since the islands were settled several centuries ago. Mount Pico, on the island of Pico, is the highest point in Portugal, at 2,351 m (7,713 ft). 
+          If measured from their base at the bottom of the ocean to their peaks, the Azores are among the tallest mountains on the planet.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+    
+
+     <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/norway.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;">  Lofoten Islands, Norway </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          When it comes to natural beauty in Europe, Norway really delivers. As a well as Svalbard, the country is also home to the stunning Lofoten Islands – an archipelago of seven islands. 
+          Lofoten is a certified sustainable destination and is worth visiting for Viking history, unspoilt landscapes, witnessing the Northern Lights in, and even surfing. 
+          It has a milder climate than other places with the same latitude, thanks to the warmth of the Gulf Stream and if you come in the summer months, you’ll experience the midnight sun. 
+          Definitely a place for outdoor types, Lofoten is a haven for hiking, climbing, kayaking, cycling and skiing.
+          According to Robert M. D'Anjou and others: "There is evidence of human settlement extending back at least 11,000 years in Lofoten, and the earliest archaeological sites ... are only about 5,500 years old, at the transition from the early to late Stone Age." Iron Age agriculture, livestock, and significant human habitation can be traced back to c. 250 BC.[1]
+          Svolvær in Lofoten, Norway. View from the ferry harbour
+          The town of Vågan (Norse Vágar) is the first known town formation in northern Norway. It existed in the early Viking Age, maybe earlier, and was located on the southern coast on eastern Lofoten, near today's village Kabelvåg in Vågan municipality. 
+          The Lofotr Viking Museum with the reconstructed 83-metre-long (272 ft) longhouse (the largest known) is located near Borg on Vestvågøy, which has many archeological finds from the Iron Age and Viking Age.[2]
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+
+      <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Westjords.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Westfjords, Iceland </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         To be honest, we could easily just say Iceland and leave it at that. 
+         But if you’re looking for an alternative to the touristy hot spots like the Golden Circle and the Blue Lagoon, then make a trip to Westfjords. 
+         They’re lesser-known and visited than other parts of the country because they’re vast, and far away from the major destinations like Jökulsárlón glacier lagoon, Lake Mývatn (yes, as featured on Game of Thrones) and the aforementioned Golden Circle.   
+          It is very rugged and dramatic, and you’ll need a car to get around but it’s worth it and it’s about 107 miles drive from Reykjavik.
+          The Westfjords or West Fjords Icelandic: Icelandic pronunciation: it is a large peninsula in northwestern Iceland and an administrative district, the least populous administrative district. It lies on the Denmark Strait, facing the east coast of Greenland. It is connected to the rest of Iceland by a seven-kilometre-wide isthmus between Gilsfjörður [ˈcɪlsˌfjœrðʏr̥] and Bitrufjörður [ˈpɪːtrʏˌfjœrðʏr̥]. The Westfjords are very mountainous; the coastline is heavily indented by dozens of fjords surrounded by steep hills. These indentations make roads very circuitous and communications by land difficult. In addition many of the roads are closed by ice and snow for several months of the year. The Vestfjarðagöng road tunnel from 1996 has improved that situation. The cliffs at Látrabjarg comprise the longest bird cliff in the northern Atlantic Ocean and are at the westernmost point in Iceland. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/greece.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Santorini, Greece </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Most people are familiar with blue domes and bright whitewashed homes that jut out over Santorini’s blue seas. 
+         The middle of the island disappeared deep into the ocean and left a massive caldera (crater) in the cliffs, so make a trip to the Minoan ruins of Akrotiri and head west to visit Akrotiri Lighthouse for spectacular views. 
+         If you’re there for a few days and packed decent walking shoes, it’s also worth making the short hop to Nea Kameni island in dramatic volcanic landscapes. 
+        Take a wander around the pretty streets of Fira and Oia for Saganaki (fried cheese in filo pastry, covered in honey), Moussaka, Spanakopita, with a glass of local beer or wine as the sun comes down over the Aegean sea.
+        Santorini remained unoccupied throughout the rest of the Bronze Age, during which time the Greeks took over Crete. At Knossos, in a LMIIIA context (14th century BC), seven Linear B texts while calling upon "all the deities" make sure to grant primacy to an elsewhere-unattested entity called qe-ra-si-ja and, once, qe-ra-si-jo. If the endings -ia[s] and -ios represent an ethnic suffix, then this means "The One From Qeras[os]". If the initial consonant were aspirated, then *Qhera- would have become "Thera-" in later Greek. "Therasia" and its ethnikon "Therasios" are both attested in later Greek; and, since -sos was itself a genitive suffix in the Aegean Sprachbund, *Qeras[os] could also shrink to *Qera. 
+        If qe-ra-si-ja was an ethnikon first, then in following the entity the Cretans also feared whence it came.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/scotland.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;">  Isle of Skye, Scotland </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        When it comes to rugged island escapes, Scotland more than holds its own among others in Europe. The Isle of Skye is the largest of the Inner Hebrides (an archipelago of over 40 islands off the west coast of Scotland) and it’s full of stunning scenery, interesting wildlife, and plenty of Whisky. 
+        If you want to avoid crowds, head to The Fairy Glen, high above the village of Uig where a landslip created a pretty magical landscape.  
+        The craggy Old Man of Storr is another of the Isle of Skye’s iconic sights, but it’s very popular so choose your time wisely if you want to avoid crowds. 
+        You can also hang out with some Hebridean Alpacas,  and sip Highland single malt at the Talisker, and Torahbhaig or Raasay distilleries for a drink with an incredible view.
+        The island has been occupied since the Mesolithic period, and over its history has been occupied at various times by Celtic tribes including the Picts and the Gaels, Scandinavian Vikings, and most notably the powerful integrated Norse-Gaels clans of MacLeod and MacDonald. 
+        The island was considered to be under Norwegian suzerainty until the 1266 Treaty of Perth, which transferred control over to Scotland.
+        The 18th-century Jacobite risings led to the breaking-up of the clan system and later clearances that replaced entire communities with sheep farms, some of which involved forced emigrations to distant lands. Resident numbers declined from over 20,000 in the early 19th century to just under 9,000 by the closing decade of the 20th century. Skye's population increased by 4% between 1991 and 2001. 
+        About a third of the residents were Gaelic speakers in 2001, and although their numbers are in decline, this aspect of island culture remains important.[13]
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/germany.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Leipzig, Germany </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The small city in Saxony has given Berlin a run for its money as the German city for creatives and visitors in recent years – just look at the #hypezig all over Instagram. 
+          The former East German city was run down after the reunification of Germany, but it’s old industrial areas like  Plagwitz are now cultural zones filled with galleries, studios, bars and clubs.  
+          Several of Leipzig’s old buildings have been restored too, so it’s a great mix of old and new. 
+          It’s a city to explore on foot, to explore architecture like The Opera House and Mendebrunnen fountain, as well as contemporary art. 
+          Head up to the top of Panorama Tower on Augustplatz to look over at nearby forests. For a break from the city streets, visit Clara Zetkin Park or take a canoe tour of the city.
+          Leipzig is located about 150 km (90 mi) southwest of Berlin, in the southernmost part of the North German Plain (the Leipzig Bay), at the confluence of the White Elster and its tributaries Pleiße and Parthe, that form an extensive inland delta in the city known as "Leipziger Gewässerknoten [de]"), along which Leipzig Riverside Forest, Europe's largest intra-city riparian forest has developed. 
+          Leipzig is at the centre of Neuseenland (new lake district), consisting of several artificial lakes created from former lignite open-pit mines.
+          Leipzig has been a trade city since at least the time of the Holy Roman Empire.[9] The city sits at the intersection of the Via Regia and the Via Imperii, two important medieval trade routes. Leipzig's trade fair dates back to 1190. Between 1764 and 1945, the city was a centre of publishing.
+          After the Second World War and during the period of the German Democratic Republic (East Germany) Leipzig remained a major urban centre in East Germany, but its cultural and economic importance declined.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/slovenia.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;">  Triglav National Park, Slovenia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Northwest Slovenia, is home to the Julian Alps, close to the Italian and Austrian borders. 
+        This is where you’ll find Triglav National Park, one of our best places in Europe to visit. 
+        It has been protected since 1924, so hasn’t had to contend with over-tourism. 
+        This means if you do make it, you’ll witness unspoilt natural beauty, including high mountain peaks, and the stunning Savica and Pericnik waterfalls. 
+        The vast park is also home to the rocky, vegetation filled Blejski Vitgar gorge where you can go hiking, climbing, and canoeing.  
+        From there you can go rafting or hydrospeeding (also known as riverboarding) where, as the name suggests, it involves lying on board and being carried along a very fast flowing river.
+        The proposal for the protection of the Triglav Lakes Valley area was first put forward by the seismologist Albin Belar in 1906 or 1908. However, the proposal was not accepted, as there was no legal base for it and the laws of the time prohibited any restriction of pasture. The strategic basis for the protection of the area, titled The Memorandum (Spomenica), and which explicitly mentioned the proposal of Belar, was submitted to the Provincial Government for Slovenia in 1920.[3] The idea was finally implemented in 1924.[3] Then, at an initiative by the Nature Protection Section of the Slovene Museum Society together with the Slovene Mountaineering Society, a twenty-year lease was taken out on the Triglav Lakes Valley area, some 14 km². It was destined to become an Alpine Conservation Park; however, permanent conservation was not possible at that time. The name Triglavski narodni park was first used in 1926 by Fran Jesenko.[3][4]
+        The protected area was officially designated as Triglav National Park.  
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/utrecht.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;">  Utrecht, Netherlands </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Daytrippers often go to Utrecht from Amsterdam, but there’s plenty of reasons to visit for longer. 
+          It’s less crowded for a start. The city is over 2000 years old –  the Romans built a fortress at what is now Dom Square, and buildings from the middle ages still stand in the city centre. 
+          It has all the charming Dutch canals of the capital (and according to travel search engine GoEuro, it’s the most beautiful canal city in Europe). 
+          As well as canalside wandering, Utrecht also has gothic architecture, pretty streets and great cafes, restaurants and bars.
+          Summer and Autumn are great for a mini-trip if you like festivals including Ultrasonic in July, and The Nederlands Film Festival and BockbierFestival, and the music festival Le Guess Who? in November. Utrecht comes in at 9 in our best places in Europe to visit guide.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/talin.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Tallinn, Estonia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          For a mix of city break and nature getaway, Tallinn is a great shout. 
+          And you can also hop over to the islands of Naissar, Prangli, and Aegna easily from Tallinn Bay too. 
+          Wander around the Old Town for cobbled medieval streets, beautiful architecture, and some of the city’s best places to eat like Rataskaevu 16 and III Draakon. 
+          Head up to the Kohtuotsa Viewing Platform for views over the city including the harbour, bell towers, and red slate rooftops. Switch from medieval to modern at Telliskivi Creative City which is hub restaurants, music venues, cafés and street art.
+          If you want to escape into nature, visit Jägala waterfall, particularly in the winter, or wander around Sooma National Park where you can book a canoe tour, and go hiking around a bog  – just remember to hire shoes so you don’t get stuck in the mud or snow depending on the season.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+    
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Karlovy.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Karlovy Vary, Czech Republic </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Lots of people come to Karlovy Vary on day trips from Prague to take a dip in some of Europe’s best hot springs. 
+          There are 15 restorative hot spas dotted around the city.
+          It’s a very beautiful city too, full of grand, pastel-coloured Bohemian architecture surrounded by forests. 
+          For the best city meets nature views, head to the hillside lookouts like the Diana Observation Tower. 
+          Visit in July for the Karlovy Vary Film Festival – one of the biggest in Europe. Head out of the city for forest hikes in the Krušnohorská magistrála,  and walk along the Tepla River.
+          For the best city meets nature views, head to the hillside lookouts like the Diana Observation Tower. Visit in July for the Karlovy Vary Film Festival – one of the biggest in Europe. 
+          Head out of the city for forest hikes in the Krušnohorská magistrála,  and walk along the Tepla River.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-2">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/denmark.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Copenhagen, Denmark </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The stylish, and apparently incredibly happy Danish capital offers a European City break with a mix of urban life and natural beauty. 
+          Whether you’re visiting for architecture, canal wandering, or visiting galleries  – the best way to get around is to act like a Dane and get on a bike. 
+          On hot days, you can cool off at one of the free outdoor baths like The Kastrup Sea Bath, or  the ‘Copencanbana’ aka Fisketorvet baths.
+          The city itself is full of green spaces like The King’s Garen and Ørstedsparken, but Amager Beach is a short bike ride away. 
+          You can also rent kayaks and paddleboards there. Copenhagen is also a short train ride away from Kronborg castle, which was the inspiration for Elsinore in Shakespeare’s Hamlet. 
+          And for wilder landscapes, visit Anholt, an island in the middle of the Kattegat sea which is covered in wildflowers which is also Northern Europe’s largest desert. 
+          A small village existed on the site of the present city by the early 10th century. In 1167 Bishop Absalon of Roskilde built a castle on an islet off the coast and fortified the town with ramparts and a moat. In 1445 Copenhagen was made the capital of Denmark and the residence of the royal family. In the civil and religious conflicts of the Protestant Reformation, the town was often sacked. During the late 16th century Copenhagen’s trade began to flourish, and the city itself expanded. Among the new buildings erected were the Børsen (Exchange), the Holmens Church, Trinitatis Church, with the adjacent famous Round Tower, and the castle of Rosenborg (now the museum of the royal family). During the wars with Sweden (1658–60) Copenhagen was besieged for two years. Fires in 1728 and 1795 destroyed many houses and buildings, and in 1807 the city was bombarded by the British. 
+        </p>
+       <a href="https://www.britannica.com/place/Copenhagen" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/corsica.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Corsica, France </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The fourth-largest island in the Mediterranean has some of the most varied landscapes in the whole of Europe. 
+         It was ruled by the Republic of Genoa between the 13th and 18th centuries, but has been part of France since 1796 although Italian culture is still present on the island alongside the French. Corsica is also the home of the challenging GR20 trail, with the reputation for being the hardest long-distance trek in Europe. Considering that 75% of people fail to complete the mountainous course that spans the length of Corsica, it’s one for serious hikers only. 
+         But if you don’t fancy a two-week-long trek, there is plenty more history and nature to explore on the island. 
+         You can visit bronze age ruins to see over 200 megaliths at Palaggiu, and if scuba diving is your thing then visit Scandola Nature Reserve, and take in the dramatic views from the fortress in Cotre.
+        Corsica, collectivité territoriale (territorial collectivity) of France and island in the Mediterranean Sea embracing (from 1976) the départements of Haute-Corse and Corse-du-Sud. Corsica is the fourth largest island (after Sicily, Sardinia, and Cyprus) in the Mediterranean. It lies 105 miles (170 km) from southern France and 56 miles (90 km) from northwestern Italy, and it is separated from Sardinia by the 7-mile (11-km) Strait of Bonifacio. Ajaccio is the capital. Although Corsica is still commonly described as one of 22 régions of metropolitan France, its official status was changed in 1991 from région to collectivité territoriale à statut particulier (territorial collectivity with special status). 
+        The unique classification provides Corsica greater autonomy than the régions. Area 3,352 square miles (8,681 square km). Pop. (1999) 260,196; (2014 est.) 324,212.
+        </p>
+       <a href="https://www.britannica.com/place/Corsica" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/gauja.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Gauja National Park, Latvia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          A short drive from the capital Riga takes you to Gauja National Park, which is around 230 acres of green forest and the largest national park in Latvia. 
+          There are many species of mammals in Gauja National Park although some are easier to spot, but with a bit of planning. The national park is also a good base for other activities like kayaking on the river Gauja.
+          A short drive from the capital Riga takes you to Gauja National Park, which is around 230 acres of green forest and the largest national park in Latvia. It’s a highly biodiverse park, filled with forest trails and a haven for hikers and nature lovers. The lush green park is also filled with rock formations, cliffs and caves as well as an abundance of wildlife. 
+          National park, an area set aside by a national government for the preservation of the natural environment. A national park may be set aside for purposes of public recreation and enjoyment or because of its historical or scientific interest. Most of the landscapes and their accompanying plants and animals in a national park are kept in their natural state.  
+          It is generally thought that the concept of a park or nature reserve under state ownership originated in the United States in 1870 and that the world’s first such park was Yellowstone National Park in Wyoming, created through legislation signed by U.S. Pres. Ulysses S. Grant in 1872. 
+          However, some naturalists and others have argued that there is evidence that indicates that the creation of Yellowstone was predated by the creation of Bogd Khan Mountain National Park in Mongolia, which may date from as early as 1778.
+          There are many species of mammals in Gauja National Park although some are easier to spot, but with a bit of planning, you might see stags, elk, wolves, lynx, otters and bats. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/stock.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;">  Stockholm Archipelago, Sweden </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         A visit to the Swedish capital means you can combine a European city break with island hopping too. For locals, it’s the best of the urban and rural coastal living. The Stockholm Archipelago is made up of 30,000 islands, and the closest one is only 20 minutes away from the city centre. Swedes and foreign tourists alike visit the island for kayaking, hiking, camping, and just generally appreciating nature.
+        Visiting off-season in the Autumn to take advantage of fewer people, and take long forest walks, and you might spot deer, foxes, rabbits and badgers on your wandering. Accommodation is also cheaper then too, which is a bonus. For a winter getaway, visit Värmdö, the largest island where you can go cross-country skiing.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/barcelona.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;">  Barcelona, Spain </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The capital of Catalonia doesn’t really need an introduction as a top European destination. A city that doesn’t really sleep, where there is interesting architecture on every corner, lush green spaces, and some of the best galleries, restaurants and music festivals in the world. It’s easy to get around too.  Once you’ve dodged the crowds at the Ramblas, you can explore the medieval alleyways of the Gothic Quarter, and make your way around the city’s landmarks like La Sagrada Familia, grabbed food at the Boqueria Market and looked down over the city from Parc Guell.
+          It’s also a great place for a mountain hike with amazing views across Catalonia. Barcelona is also close to the coastal town of Sitges and the Roman ruins at Tarragona.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/moster.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Mostar, Bosnia and Herzegovina </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The area suffered hugely during the Balkans war in the 1990s, but has recovered and become one of the country’s most visited places. 
+          Mostar’s most famous landmark is Stari Most, a 16th Century Ottoman-built bridge that crosses the Neretva river. 
+          During the summer months, you might catch professional drivers leaping off it into the river below. 
+          The atrocities suffered by Mostar during the conflict are still relatively recent in the city’s history, and the ‘Don’t Forget Stone’ serves as an important reminder for visitors.  
+          But some of the most remarkable sites lie beyond the city. A few miles outside of Mostar is Blagag Tekija, a holy site that has been home to an ancient brotherhood of Dervishes for more than 600 years.  
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/lisbon.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Lisbon, Portugal </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The city of seven hills on the banks of the River Tagus is one of the most beautiful and historic cities in Europe. From the bustle and cheap bars of Barrio Alto to incredible views from Miradouros and with beaches close by – it’s no wonder it’s become more popular with visitors and remote workers in recent years.
+          Lisbon is also one of the greenest European capital cities, where you can wander through the 19th-century botanical garden Jardim do Torel, and check out the sculptures at Gulbenkian Gardens, or go hiking in the Parque Florestal de Monsanto. Escape the crowds by taking a wander up to Miradouro de Santa Catarina, one of Lisbon’s less well-known viewpoints.
+          The city of seven hills on the banks of the River Tagus is one of the most beautiful and historic cities in Europe. From the bustle and cheap bars of Barrio Alto to incredible views from Miradouros and with beaches close by – it’s no wonder it’s become more popular with visitors and remote workers in recent years.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/malta.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Comino, Malta </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Comino is the smallest inhabited island in the Maltese archipelago with only three permanent residents. Most people come to Comino for the crystal clear waters of the Blue Lagoon, and it gets pretty crowded in the summer months. But plan a weekday visit off-season and you can visit to swim or in the azure waters, or hike up to Saint Mary’s Tower and marvel at the island’s rock formations. 
+          People often go to Comino for a day trip as it’s only a 30-minute boat ride from the mainland.  And you can hike the whole island in a day, but there’s also a campsite where you pitch your tent for free if you want to stay longer. Comino is also a bird sanctuary and nature reserve, where you’ll see reptiles like the Moorish Gecko and Maltese Wall Lizard as well as lots of birdlife. Comino ranks 40 in our best places in Europe to visit guide.
+          Comino is the smallest inhabited island in the Maltese archipelago with only three permanent residents.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/provence.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;">  Provence, France </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         France is the most visited country in the world, and yes there are a lot of beautiful regions to choose from. 
+          It’s perfect for a road trip around some of the country’s most beautiful villages, heritage sites, natural wonders.  Provence is an incredibly colourful area too, in the summer fields bloom with lavender and sunflowers, and you could easily plan a trip around the Provençal food and wine feasting on plates bouillabaisse (a fish and seafood stew from Marseille), ratatouille, and local produce at the daily market at Aix En Provence. 
+          Villages like the Venasque overlooking the Nesque river canyons are considered and the medieval hilltop Gordes are considered to be some of the most beautiful in France.  Provence is home to  rugged natural wonders too, like Calanques which is a dramatic series of inlets along the coast. And if you want to venture a bit off the beaten track, there are some amazing lakes and rivers under waterfalls for wild swimming in places like Pont Du Gard and Sillans La Cascade.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/black.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Black Sea Coast, Bulgaria </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Also known as the Bulgarian Riviera, the Black Sea Coast is over 200 miles of coastline that is home to beautiful ancient cities, secluded beaches, old fortresses and mysterious archaeological sites. Perfect for a road trip filled with adventure and exploration with plenty of budget campsites and small villas to stay in. One of the main coastal cities is Varna, which dates back to 4600 BC and is worth visiting for the Roman Baths, a cave monastery, bizarre rock formations and if you venture a bit further, you can visit  Pobitli Kamani also known as the Stone Forest.
+          It’s also Bulgaria’s only desert, and one of the ones in the whole of Europe, and it’s filled with around 300 limestone pillars that are over 50 million years old. Varna is also a good base for visiting Ovech Fortress Elsewhere along the Black Sea Coast, you can also visit the ancient city of Nessebar which is a UNESCO World Heritage Site that has been fortified since Roman times filled with ancient churches, monasteries, and incredible views.
+          The roughly oval-shaped Black Sea occupies a large basin strategically situated at the southeastern extremity of Europe but connected to the distant waters of the Atlantic Ocean by the Bosporus (which emerges from the sea’s southwestern corner), the Sea of Marmara, the Dardanelles, the Aegean Sea, and the Mediterranean Sea. The Crimean Peninsula thrusts into the Black Sea from the north, and just to its east the narrow Kerch Strait links the sea to the smaller Sea of Azov. The Black Sea coastline is otherwise fairly regular. The maximum east-west extent of the sea is about 730 miles (1,175 km), and the shortest distance between the tip of Crimea and Cape Kerempe to the south is about 160 miles (260 km). The surface area, excluding the Sea of Marmara but including the Sea of Azov, is about 178,000 square miles (461,000 square km); the Black Sea proper occupies about 163,000 square miles (422,000 square km). 
+          A maximum depth of more than 7,250 feet (2,210 metres) is reached in the south-central sector of the sea.
+        </p>
+       <a href="https://www.britannica.com/place/Black-Sea" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/scilly.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Tresco, Isles of Scilly, England </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The turquoise waters, sandy beaches and palm trees of the Isles of Scilly look more like somewhere deep in the Mediterranean or even the Caribbean than England. But the archipelago off the Cornish coast has a micro-climate, and Tresco, its second-largest island is home to subtropical sandy beaches and lush gardens, as well as rugged coastal walks, ancient monuments and castles.
+          Tresco’s Abbey Gardens is a stunning, subtropical gem, which is home to more than 20,000 exotic plants from all over the world including Brazil and New Zealand and filled with colourful flowers. The north of Tresco is more rugged if you want to go exploring, and the centre of the island is home to bird hides and freshwater pools. But beyond the sunny skies and sandy beaches, Tresco has a dark maritime past, and if you’re interested in stories and artefacts from the sea, visit the Valhalla Museum (inside the Abbey Gardens) to see figureheads salvaged from shipwrecks. 
+          The islands are composed of granite and are a continuation of the granite masses of the Cornish mainland. They reach an elevation of 165 feet (50 metres) on St. Mary’s and have dangerous rocky coasts with many reefs. Because the islands’ climate is exceptionally mild—the mean monthly temperatures range from 45 to 62 °F (7 to 16 °C)—their fauna and flora are quite different from those on the English mainland. Many subtropical plants flourish. Seals live on the rocks and islets. Among an immense variety of seabirds that visit the islands, the roseate tern is the rarest British breeding tern, and the Manx shearwater has its only British breeding site in the islands.
+          Isles of Scilly, group of about 50 small islands and many more islets lying southwest of Cornwall, England, 25 to 36 miles (40 to 58 km) off Land’s End. Administratively, the islands are a distinct unit within England, though they form a part of the historic county of Cornwall. Because their council serves the functions of both a district and a county, they have a status similar to that of a unitary authority. The administrative centre is on St. Mary’s, the largest island in the group.
+        </p>
+       <a href="https://www.britannica.com/place/Isles-of-Scilly-islands-England-United-Kingdom" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Karlovy.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Crete, Greek Islands </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The largest of the Greek Islands is so vast it has two airports  Depending on how long you go for, and what you want to see, you’ll need to choose whether to fly into Chania or Heraklion. Neither of them will disappoint, with stunning scenery, delicious food, and remnants of ancient civilizations. But there are a few more unspoilt, less touristy places to explore in Chania. 
+          If you want to escape large tourist groups, head to the golden sands and lack of crowds at Xerokambos, a beach surrounded by mountains. Chania is also home to the Agria Irini in the west of the White Mountains. Apokournous is a little slice of Cretan paradise too, especially the shimmering freshwater lake of Lake Kouros..
+          The largest of the Greek Islands is so vast it has two airports  Depending on how long you go for, and what you want to see, you’ll need to choose whether to fly into Chania or Heraklion. Neither of them will disappoint, with stunning scenery, delicious food, and remnants of ancient civilizations.  
+          Crete is dominated by harsh mountains rising out of the sea. The island’s east-west mountainous range consists of four main groups that rise to the island’s highest point, Ídi mountain, 8,058 feet (2,456 metres) in elevation. To the west the Lefká (“White”) Mountains reach 8,045 feet (2,452 metres), and to the east the Díkti Mountains extend to 7,047 feet (2,148 metres) in elevation. Those mountains rise above the high upland plains of Nída, Omalós, and Lasíthi and are marked by several gorges, the best known of which is the Samariá Gorge. The gradually sloping northern coast provides several natural harbours and coastal plains, where such major towns as Chaniá (Khaniá; historically Canea), Réthymno (Réthimnon; historically Rhithymna), and Irákleio are located. The Mesara (Messára) Plain extends along the south-central part of the island for about 18 miles (29 km) and is Crete’s major expanse of flatlands. Sandy and pebble-strewn beaches dot the coastline. 
+          Crete has six small rivers as well as springs, seasonal watercourses and ponds.
+        </p>
+       <a href="https://www.britannica.com/place/Crete" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-3">
+  <div class="container">
+    <div class="row">
+      
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/TAJ.JPG" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Taj Mahal, Agra </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Taj Mahal, mausoleum complex in Agra, western Uttar Pradesh state, northern India. The Taj Mahal was built by the Mughal emperor Shah Jahān (reigned 1628–58) to immortalize his wife Mumtaz Mahal (“Chosen One of the Palace”), who died in childbirth in 1631, having been the emperor’s inseparable companion since their marriage in 1612. India’s most famous and widely recognized building, it is situated in the eastern part of the city on the southern (right) bank of the Yamuna (Jumna) River. Agra Fort (Red Fort), also on the right bank of the Yamuna, is about 1 mile (1.6 km) west of the Taj Mahal.
+          In its harmonious proportions and its fluid incorporation of decorative elements, the Taj Mahal is distinguished as the finest example of Mughal architecture, a blend of Indian, Persian, and Islamic styles. Other attractions include twin mosque buildings (placed symmetrically on either side of the mausoleum), lovely gardens, and a museum. One of the most beautiful structural compositions in the world, the Taj Mahal is also one of the world’s most iconic monuments, visited by millions of tourists each year. The complex was designated a UNESCO World Heritage site in 1983.
+        </p>
+       <a href="https://www.britannica.com/topic/Taj-Mahal" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Varanasi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Varanasi, India </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Varanasi subsequently declined during three centuries of Muslim occupation, beginning in 1194. Many of the city’s Hindu temples were destroyed during the period of Muslim rule, and learned scholars fled to other parts of the country. The Mughal emperor Akbar in the 16th century brought some relief to the city’s religious and cultural activities. There was another setback during the reign of the Mughal emperor Aurangzeb in the late 17th century, but later the Marathas sponsored a new revival. Varanasi became an independent kingdom in the 18th century, and under the subsequent British rule it remained a commercial and religious centre.
+        In 1910 the British made Varanasi a new Indian state, with Ramnagar (on the opposite bank) as headquarters but with no jurisdiction over the city of Varanasi. In 1947, after Indian independence, the Varanasi state became part of the state of Uttar Pradesh.
+        Varanasi has the finest river frontage in India, with miles of ghats, or steps, for religious bathing; an array of shrines, temples, and palaces rises tier on tier from the water’s edge. The inner streets of the city are narrow, winding, and impassable for motor traffic; the newer outer suburbs are more spacious and are laid out more systematically.  
+        </p>
+       <a href="https://www.britannica.com/place/Varanasi" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/rajasthan.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;">  Rajasthan: The Desert Rose </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The Aravalli (Aravali) Range forms a line across the state running roughly from Guru Peak on Mount Abu (5,650 feet [1,722 metres]), near the town of Abu in the southwest, to the town of Khetri in the northeast. About three-fifths of the state lies northwest of that line, leaving the remaining two-fifths in the southeast. Those are the two natural divisions of Rajasthan. The northwestern tract is generally arid and unproductive, although its character shifts gradually from desert in the far west and northwest to comparatively fertile and habitable land toward the east. The region includes the Thar (Great Indian) Desert.
+          The southeastern area lies at a somewhat higher elevation than its northwestern counterpart; it also is more fertile and has a more-diverse topography. 
+          The hilly tract of Mewar lies in the southern region, while a broad plateau stretches across the southeast. In the northeast a rugged badlands region follows the line of the Chambal River.  
+          Before 1947, when India achieved independence from British rule, it comprised some two dozen princely states and chiefships, the small British-administered province of Ajmer-Merwara, and a few pockets of territory outside the main boundaries.  
+        </p>
+       <a href="https://www.britannica.com/place/Rajasthan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Blue.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Blue Mosque, Istanbul </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Blue Mosque, 17th-century mosque that is one of the most magnificent structures of the Ottoman Empire, set next to the Byzantine Hippodrome and across from the Hagia Sophia in Istanbul, Turkey. Known for having six minarets (rather than the standard four) and for its many domes and semidomes, the building became known as the Blue Mosque for the color of its interior, but it is in fact properly known as the Sultan Ahmed Mosque—named after Sultan Ahmed I, who ordered its construction.
+          The Blue Mosque was built between 1609 and 1616 in what was then the center of Istanbul. Its position opposite Hagia Sophia suggests that Ahmed I intended the mosque to rival the glory of the former catheral. The mosque’s architect, Sedefkar Mehmed Ağa, is responsible for the perfect proportions of its structure. The carved marble minbar (pulpit) is positioned so that the imam can be heard from anywhere in the mosque. The central dome of the mosque is 77 feet (23.5 m) in diameter and 141 feet (43 m) high, and it is supported by four large pillars and surrounded by eight cascading smaller domes. The interior of the mosque is lined with more than 20,000 handmade ceramic tiles from İznik, which are richly decorated with flowers, trees, and abstract patterns.
+          The Blue Mosque holds about 10,000 worshipers, and hundreds of Muslims use it for daily prayers five times a day, with many more attending on Fridays and during Muslim festivals. The mosque is open to tourists when it is not in use for worship. The way in for non-Muslims is by the south entrance, but the west entrance is the most superbly decorated.
+        </p>
+       <a href="https://www.britannica.com/topic/Blue-Mosque-Istanbul-Turkey" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/faroe.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Faroe Islands, Denmark </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         It’s probably no surprise that we like islands around here. And the Faroe Islands is a destination  Secret Atlas guests would have a great time exploring. Technically part of Denmark, although self-governing – It’s an archipelago of 18 islands in the Atlantic Ocean, that sit between Scotland, Norway and Iceland and you can fly there from Edinburgh, Reykjavik, or Bergen in Norway. This is one trip that will need a bit more planning than a lot of European holidays, especially as there are only a few hotels, B&Bs and private rentals to choose from.
+        The Faroe Islands are for adventurous travellers. The weather patterns vary a lot (due to both the warmth of the gulf stream and the icy Arctic waters). 
+        LIke Svalbard, it’s worth visiting for rugged, untamed natural beauty, amazing hiking trails, huge mountains, and craggy bird cliffs and black sandy beaches. 
+        You can go kayaking to the impressive Draganir sea-stacks, spot Puffins at Mykines, and go horse riding around the capital Tórshavn. 
+        And if you’re tired from all of that exploring, you can unwind at a Heimablídni, which is Faroese for homegrown hospitality. 
+        So you can enjoy a cosy fish and chip supper in a remote, 19th century home. 
+        The Faroe Islands come in at 7 in our best places in Europe to visit guide.
+        Faroe Islands, group of islands in the North Atlantic Ocean between Iceland and the Shetland Islands. They form a self-governing overseas administrative division of the kingdom of Denmark. There are 17 inhabited islands and many islets and reefs. 
+        The main islands are Streymoy (Streym), Eysturoy (Eystur), Vágar, Suduroy (Sudur), Sandoy (Sand), Bordoy (Bord), and Svínoy (Svín). The capital is Tórshavn (Thorshavn) on Streymoy. 
+        </p>
+       <a href="https://www.britannica.com/place/Faroe-Islands-Atlantic-Ocean" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Phu.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;">  Phu Quoc, Hanoi </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         About as far south as you can get from Hanoi without splashing into the Gulf of Thailand, the island of Phu Quoc is where beach worshippers come to pray. 
+         Lapped by jewel-blue waters and edged by fine sandy beaches, this is a place to slip into low gear, reaching for a cocktail as the ember-colored sun dips into the bay.
+          But it's far from undiscovered – local tourists come in droves for theme park thrills at VinWonders and giddying views over the sea from the world's longest over-sea cable car. Phu Quoc is a popular stop for families, and if you fancy a change from the tourist scene, there are dense jungles to explore inland from the sand.
+          If you're bound for Phu Quoc, there's no need to go via Hanoi and HCMC; numerous Asian airlines offer flights from hubs such as Bangkok, Kuala Lumpur and Seoul, connecting with long-haul flights further afield.
+          Phu Quoc Island, island in the Gulf of Thailand, belonging to Vietnam. Lying 7 miles (11 km) off the Cambodian coast south of Bok Koŭ (formerly Bokor) and 43 miles (69 km) west of the west coast of southern Vietnam, the partially forested island is almost 30 miles (48 km) long from north to south and has a maximum width of 17 miles (27 km). It has an area of 230 square miles (596 square km). The climate is tropical monsoonal year-round with a short two- to three-month drier winter season. 
+          The eastern half has elevations ranging from about 2,000 feet (600 m) in the north. 
+          The island’s economic activities include the mining of jet (a dense, black mineral, a variety of coal) and anthracite, lumbering, and the production of pepper, cocoa, coffee, betel, and coconuts. 
+          Following World War I the French imported 3,000 colonists from Tonkin. 
+        </p>
+       <a href="https://www.britannica.com/place/Phu-Quoc-Island" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/rainbow.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Rainbow Mountains, China </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The Rainbow Mountains are cretaceous sandstones and siltstones that were deposited in China before the Himalayan Mountains were formed. 
+          The sand and silt was deposited with iron and trace minerals that provided it with the key ingredient to form the colors we see today.
+          What was once a layered horizontal and flat stratigraphy was disrupted by the Indian Plate colliding into the Eurasian Plate approximately 55 million years ago. Much like when two cars get in a wreck and the bumpers fold and break, a similar process folded what was once flat sandstones into the Rainbow Mountains we see today. This process uplifted mountains and exposed sedimentary rocks that were otherwise hidden well below the surface of the earth. Weathering and erosion removed the overlying layers of continental siliciclastic rocks and exposed underlying formations with different mineralogy and chemistry. 
+          This causes the striking variation in colors seen across the Rainbow Mountains.
+          Luckily for you, you don't have to travel to northwest China to see this exact same process. Go outside and wander around, looking down and out on the landscape. 
+          Try to identify a rock with a red coloring all over and there's a good chance you've identified a iron oxide stained sandstone. Let us know what you've found in the comments below.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/hitachi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: GREEN; font-weight: 700;"> Hitachi Seaside Park, Japan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The area’s industrial development began with the discovery of copper nearby in 1591. Large-scale copper smelting was introduced during the Meiji period (1868–1912), and after 1920 the Hitachi Company, Ltd. (now Hitachi, Ltd.), diversified into the production of electrical appliances and machinery. Between 1907 and 1938 Hitachi’s population increased tenfold. The company town prospered—particularly after the Tokyo-Yokohama (Great Kantō) earthquake of 1923, when it filled a manufacturing void after many factories in the Keihin Industrial Zone had been destroyed. Hitachi suffered heavy damage from Allied bombing during World War II, but its postwar recovery was rapid. 
+         Its mine continued to yield copper that was made into electric wires and rolled-copper products until it closed in the early 1980s.
+         Japan, island country lying off the east coast of Asia. Nearly the entire land area is taken up by the country’s four main islands;  Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/petra.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Petra, Jordan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Petra, ancient city, centre of an Arab kingdom in Hellenistic and Roman times, the ruins of which are in southwest Jordan. The city was built on a terrace, pierced from east to west by the Wadi Mūsā (the Valley of Moses)—one of the places where, according to tradition, the Israelite leader Moses struck a rock and water gushed forth. The valley is enclosed by sandstone cliffs veined with shades of red and purple varying to pale yellow, and for this reason Petra was called by the 19th-century English biblical scholar John William Burgon a “rose-red city half as old as Time.” 
+         The modern town of Wadi Mūsā, situated adjacent to the ancient city, chiefly serves the steady stream of tourists who continue to visit the site.
+        Al-Dayr (“The Monastery”) at Petra, Jordan.
+        The Greek name Petra (“Rock”) probably replaced the biblical name Sela. Remains from the Paleolithic and Neolithic periods have been discovered at Petra, and Edomites are known to have occupied the area about 1200 BCE. Centuries later the Nabataeans, an Arab tribe, occupied it and made it the capital of their kingdom. In 312 BCE the region was attacked by Seleucid forces, who failed to seize the city. Under Nabataean rule, Petra prospered as a centre of the spice trade that involved such disparate realms as China, Egypt, Greece, and India, and the city’s population swelled to between 10,000 and 30,000.
+        </p>
+       <a href="https://www.britannica.com/place/Petra-ancient-city-Jordan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/brasov.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Brasov, Romania </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Brașov, city, capital of Brașov județ (county), central Romania. One of the largest cities of the country.
+          Founded by Teutonic Knights in 1211 and first mentioned in documents as Brașov in 1251, it became the centre of a Saxon colony trading in cloth, weapons, metalwork, and wax throughout much of Walachia and Moldavia. The substantial autonomy of its German inhabitants was ended in 1876 with the abolition of their separate national status. The old (inner) town, heavily fortified in the 15th century against the Turks, survived with little damage and contains many historic buildings, including the town hall (1420, restored 1777); the 190-foot (58-metre) watchtower, also called Trumpeter’s Tower (1528, restored 1910); the Orthodox St. Nicholas’ Church (1495?, restored 1751); and St. Bartholomew’s Church (13th century, the oldest building in Brașov). The Gothic Protestant Church (1385–1477, restored 1711–15), is called the Black Church because of its smoke-blackened walls resulting from a 1689 fire. In Brașov are several theatres and museums and a university. “The Apostle of Transylvania,” Johannes Honterus (1498–1549), who led the Protestant Reformation in the area, lived and died in Brașov (then Kronstadt) and established the first printing press in Transylvania there in 1535. 
+          The first book printed in the Romanian language, by the deacon Coresi, was published in Brașov in the mid-16th century. Education in Romanian was introduced there in the first Romanian school in 1559.
+        </p>
+       <a href="https://www.britannica.com/place/Brasov-Romania" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/ajanta.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;">  Ellora & Ajanta Caves, India </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Ellora Caves, a series of 34 magnificent rock-cut temples in northwest-central Maharashtra state, western India. They are located near the village of Ellora, 19 miles (30 km) northwest of Aurangabad and 50 miles (80 km) southwest of the Ajanta Caves. Spread over a distance of 1.2 miles (2 km), the temples were cut from basaltic cliffs and have elaborate facades and interior walls. 
+        The Ellora complex was designated a UNESCO World Heritage site in 1983.
+        The 12 Buddhist caves (in the south) date from about 200 BCE to 600 CE, the 17 Hindu temples (in the centre) date from about 500 to 900 CE, and the 5 Jain temples (in the north) date from about 800 to 1000. The Hindu caves are the most dramatic in design, and the Buddhist caves contain the simplest ornamentation. Ellora served as a group of monasteries (viharas) and temples (caityas); some of the caves include sleeping cells that were carved for itinerant monks.
+        In the state of Maharashtra, you can explore the caves of both Ellora and Ajanta. At Ellora, there is an enormous complex of shrines carved from the rocky landscape. These 34 cave shrines are up to 1,500 years old, and they are from three distinct religions: Buddhism, Jainism and Hinduism.
+        Two hours away is Ajanta, which is also home to 29 caves. The Ajanta caves are covered in murals and paintings, most of which reflect Buddhist stories. While the two cave complexes are two hours away from one another, it is well worth visiting both to compare these incredible attractions.
+        </p>
+       <a href="https://www.britannica.com/place/South-Asia" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+   
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/side.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Sidemen’s Valley, Bali </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        The Sidemen Valley is one of the best places to visit in Bali for those looking to explore the island’s rice fields. Located in the eastern part of Bali, the valley is a picturesque destination with stunning views of Mount Agung and lush green rice paddies. 
+        Visitors can take a leisurely stroll through the rice fields, explore local villages, and even participate in traditional Balinese activities like weaving and farming. The Sidemen Valley is one of the best Bali tourist attractions for anyone looking for an authentic and peaceful experience away from the crowds.
+        The Sidemen Valley is one of the many tourist places to visit in Bali that offers visitors a chance to experience the island’s natural beauty and traditional culture. The valley is famous for its stunning views, lush rice fields, and traditional Balinese villages. Also, it comes in the list of top 5 places to visit in Bali. 
+        The Sidemen Valley is one of the Bali famous places that should be on every traveler’s itinerary. The valley is also known for its rich cultural heritage, and visitors can learn about traditional Balinese practices like farming, weaving, and dance. The Bali places to visit have their own unique vibe that can really intrigue the tourists! 
+        Most of Bali is mountainous (essentially an extension of the central mountain chain in Java), the highest point being Mount Agung, or Bali Peak, 10,308 feet (3,142 metres) in height and known locally as the “navel of the world.” It proved to be an active volcano, erupting in 1963 (after a dormancy of 120 years), killing more than 1,500 persons. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-4">
+  <div class="container">
+    <div class="row">
+
+   
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Mauritius.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Mauritius – Tropical Paradise </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Mauritius lies about 500 miles (800 km) east of Madagascar in the Indian Ocean. Its outlying territories are Rodrigues Island, situated about 340 miles (550 km) eastward, the Cargados Carajos Shoals, 250 miles (400 km) northeastward, and the Agalega Islands, 580 miles (930 km) northward from the main island. 
+         Mauritius also claims sovereignty over the Chagos Archipelago (including Diego Garcia), some 1,250 miles (2,000 km) to the northeast, although this claim is disputed by Britain.
+         If you are looking for an international destination and thinking about where to go in October, Mauritius is the perfect destination for you. Being a tropical paradise, Mauritius enjoys toasty temperatures all year round. 
+         Hence, it is one of the places to travel in October in the world. In October, the weather is warmer and drier and the humidity levels are significantly low. Sunny weather is guaranteed along the west coast.
+          From exploring the Black River Gorges National Park and Underwater Waterfalls to partying at Grand Baie/Flic en Flac during the weekend, there are several recreational activities worth pursuing here. Making your hotel and flight reservations a month in advance is highly recommended.
+        </p>
+       <a href="https://www.britannica.com/place/Mauritius" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>   
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Mexico.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Mexico – Architectural Wonders </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Mexico, country of southern North America and the third largest country in Latin America, after Brazil and Argentina. Mexican society is characterized by extremes of wealth and poverty, with a limited middle class wedged between an elite cadre of landowners and investors on the one hand and masses of rural and urban poor on the other. But in spite of the challenges it faces as a developing country, Mexico is one of the chief economic and political forces in Latin America. It has a dynamic industrial base, vast mineral resources, a wide-ranging service sector, and the world’s largest population of Spanish speakers—about two and a half times that of Spain or Colombia. As its official name suggests, the Estados Unidos Mexicanos (United Mexican States) incorporates 31 socially and physically diverse states and the Federal District.
+          More than half of the Mexican people live in the centre of the country, whereas vast areas of the arid north and the tropical south are sparsely settled. Migrants from impoverished rural areas have poured into Mexico’s cities, and nearly four-fifths of Mexicans now live in urban areas. Mexico has experienced a series of economic booms leading to periods of impressive social gains.
+        </p>
+       <a href="https://www.britannica.com/place/Mexico" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Spain.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Spain – Culinary Feast </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Spain, country located in extreme southwestern Europe. It occupies about 85 percent of the Iberian Peninsula, which it shares with its smaller neighbour Portugal.
+        It was in this rural setting that Miguel de Cervantes’s Don Quixote tilted at the tall windmills that still dot the landscape in several places. In the country’s northeast are the broad valley of the Ebro River, the mountainous region of Catalonia, and the hilly coastal plain of Valencia. To the northwest is the Cantabrian Mountains, a rugged range in which heavily forested, rain-swept valleys are interspersed with tall peaks. To the south is the citrus-orchard-rich and irrigated lands of the valley of the Guadalquivir River, celebrated in the renowned lyrics of Spanish poets Federico García Lorca and Antonio Machado; over this valley rises the snowcapped Sierra Nevada. The southern portion of the country is desert, an extension of the Sahara made familiar to Americans through the “spaghetti western” films of the 1960s and early ’70s. Lined with palm trees, rosemary bushes, and other tropical vegetation, the southeastern Mediterranean coast and the Balearic Islands enjoy a gentle climate, drawing millions of visitors and retirees, especially from northern Europe.
+        </p>
+       <a href="https://www.britannica.com/place/Spain" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Wiltshire.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Wiltshire – Historical Gems </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Wiltshire, geographic and historic county and unitary authority of southern England. It is situated on a low plateau draining into the basins of the Bristol Channel, the English Channel, and the eastward-flowing River Thames. Trowbridge, on the western side of Wiltshire, is the administrative centre.
+        The geographic and historic counties and unitary authority occupy slightly different areas. The unitary authority of Wiltshire is bounded to the north by the administrative county of Gloucestershire, to the northeast by the unitary authority of Swindon, to the east by the unitary authority of West Berkshire, to the southeast by the administrative county of Hampshire, to the south by the administrative county of Dorset, to the southwest by the administrative county of Somerset, and to the west by the unitary authority of Bath and North East Somerset and the unitary authority of South Gloucestershire. Until its conversion to a unitary authority in 2009, the former administrative county of Wiltshire was divided into four districts: Salisbury, West Wiltshire, Kennet, and North Wiltshire.The geographic county encompasses the entire administrative county together with the unitary authority of Swindon. 
+        The historic county of Wiltshire is nearly coterminous with the geographic county but also includes a small area north of Sherston in the district of Cotswold in the administrative county of Gloucestershire.
+        </p>
+       <a href="https://www.britannica.com/place/Wiltshire" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Prague.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;">  Prague – Culturally Alluring </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Prague, city, capital of the Czech Republic. Lying at the heart of Europe, it is one of the continent’s finest cities and the major Czech economic and cultural centre. 
+        The city has a rich architectural heritage that reflects both the uncertain currents of history in Bohemia and an urban life extending back more than 1,000 years.
+        The Charles Bridge over the Vltava River, Prague.
+        The physical attractions and landmarks of Prague are many. Among the finest is the Charles Bridge (Karlův most), which stands astride the Vltava River. The winding course of the Vltava, with its succession of bridges and changing vistas, contrasts with the ever-present backdrop of the great castle of Hradčany (Prague Castle), which dominates the left-bank region of the city from behind massive walls set high on a hill. The narrow streets and little taverns and restaurants of the older quarters contrast with the broad sweep of Wenceslas Square and modern parks and housing developments, while the great 18th-century Baroque palaces have their own elegance and splendour. Seen from the surrounding hills, the many church towers make up a unique perspective, giving Prague its description as the “city of a hundred spires.” This architectural harmony was enhanced by post-1945 planning, which preserved the ancient core of the city as a major monument and carefully supervised all modern building. 
+        In 1992 the historic city centre was added to UNESCO’s World Heritage List.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Bohol.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Bohol – Lively Traditions </h5>
+         <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Bohol, island, Visayan group, south-central Philippines. The island, roughly oval in shape, lies between the Camotes Sea (north) and the Bohol Sea (south). Its volcanic core is mostly covered with coralline limestone. The rivers are short, and there are few good anchorages.
+          Settlement is mainly coastal, except for a low central plateau that encircles the town of Carmen. The spectacular “chocolate hills,” or “haycock hills,” in west-central Bohol are named for their brown appearance in the dry season and their symmetrical, conical shapes. They are limestone remnants of an earlier erosion cycle, a phenomenon known to be present in only two or three other places in the world. The area has been developed for tourists.
+          Bohol’s character is essentially rural. Rice, corn (maize), and coconuts are the principal crops. A secondary livestock industry is centred at Ubay, on rougher terrain near the east coast. Extensive, low-grade deposits of manganese are mined in the southeast. Loon and Talibon are important towns. 
+          Leyte, island, one of the Visayan group in the central Philippines, lying east of Cebu and Bohol across the Camotes Sea. It lies southwest of the island of Samar, with which it is linked by a 7,093-foot (2,162-metre) bridge (completed in 1973) across the narrow San Juanico Strait. The Samar and Bohol (Mindanao) seas lie to the north and south, and Leyte Gulf occupies a large basin between eastern Leyte and southern Samar Island.
+          </p>
+       <a href="https://www.britannica.com/place/Bohol-Sea" class="btn btn-outline-success btn-sm">Read More</a>
+       <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Taiwan.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Taiwan – Wondrous Vistas </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Taiwan, island in the western Pacific Ocean that lies roughly 100 miles (160 km) off the coast of southeastern China. It is approximately 245 miles (395 km) long (north-south) and 90 miles (145 km) across at its widest point. Taipei, in the north, is the seat of government of the Republic of China (ROC; Nationalist China). In addition to the main island, the ROC government has jurisdiction over 22 islands in the Taiwan group and 64 islands to the west in the P’eng-hu (Pescadores) archipelago. Two island groups controlled by the ROC government, Matsu and Quemoy, lie just off the coast of China’s Fujian (Fukien) province. In the East China Sea, the ROC claims the group of islands it calls Diaoyutai, which also are claimed by Japan as Senkaku and by the People’s Republic of China as Diaoyu. Moreover, in the South China Sea, the ROC’s claim to the Paracels is disputed with the People’s Republic of China and Vietnam, whereas a larger group of countries—the People’s Republic of China, Vietnam, Malaysia, and the Philippines, in addition to the ROC—all claim the Spratly Islands.
+          Taiwan
+          Taiwan
+          Prior to the 1600s, Taiwan was self-governing, although there was no central ruling authority. It was a colony of the Netherlands for about 40 years in the early to mid-17th century and was subsequently independent again for about two decades. China gained control there in the late 17th century and ruled Taiwan for some two centuries. Japan acquired Taiwan in 1895 following the first Sino-Japanese War, and it became a colony.
+        </p>
+       <a href="https://www.britannica.com/place/Taiwan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Canada.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Canada – Craggy Coasts </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Despite Canada’s great size, it is one of the world’s most sparsely populated countries. This fact, coupled with the grandeur of the landscape, has been central to the sense of Canadian national identity, as expressed by the Dublin-born writer Anna Brownell Jameson, who explored central Ontario in 1837 and remarked exultantly on “the seemingly interminable line of trees before you; the boundless wilderness around you; the mysterious depths amid the multitudinous foliage, where foot of man hath never penetrated…the solitude in which we proceeded mile after mile, no human being, no human dwelling within sight.” Although Canadians are comparatively few in number, they have crafted what many observers consider to be a model multicultural society. 
+          Canada is officially bilingual in English and French, reflecting the country’s history as ground once contested by two of Europe’s great powers. The word Canada is derived from the Huron-Iroquois kanata, meaning a village or settlement. In the 16th century, French explorer Jacques Cartier used the name Canada to refer to the area around the settlement that is now Quebec city. Later, Canada was used as a synonym for New France, which, from 1534 to 1763, included all the French possessions along the St. Lawrence River and the Great Lakes. After the British conquest of New France, the name Quebec was sometimes used instead of Canada. The act also divided the old colony of Canada into the separate provinces of Ontario and Queue. 
+        </p>
+       <a href="https://www.britannica.com/place/Canada" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Vermont.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Vermont – Shopping Haven </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Vermont, constituent state of the United States of America. One of the six New England states lying in the northeastern corner of the country, it was admitted to the union on March 4, 1791, as the 14th state. 
+        It is sparsely populated, and its capital, Montpelier, is one of the least-populous U.S. state capitals. 
+        Vermont is bordered to the north by Quebec, Canada, to the east by New Hampshire, to the south by Massachusetts, and to the west by New York. 
+        From the Canadian to the Massachusetts border, the Connecticut River separates Vermont from New Hampshire. 
+        The river, from the mean low-water line on the western bank, is entirely within New Hampshire’s borders.
+        Many people left their birthplaces in Vermont to pursue opportunities in the opening West or in urban centres of the Northeast. In turn, many creative personalities have sought the spiritual refuge offered by the state. Vermont has never stood in the mainstream of the country’s history, but its people and land have poured into their country a strength and a sense of continuity that joins the achievements of the nation’s past with the purposes of its present. 
+        Area 9,616 square miles (24,906 square km). 
+        The Green Mountains that cover most of the state are part of the northern Appalachian Mountains, which run southeastward from Canada into north-central Alabama. They provide Vermont with a north-south backbone that ranges from approximately 20 to 35 miles (30 to 55 km) in width. Thirty-one mountains in the state rise above 3,500 feet (1,100 metres).
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/dublin.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Dublin – Nocturnal Action </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Dublin is a warm and welcoming city, known for the friendliness of its people and famous for its craic (“crack”)—that mixture of repartee, humour, intelligence, and acerbic and deflating insight that has attracted writers, intellectuals, and visitors for centuries. 
+        It has faded grandeur and a comfortably worn sense. 
+        Some one-fourth of the residents of the Republic of Ireland live in the Greater Dublin urban area, providing a good deal of bustle. 
+        The city’s heart is divided north-south by the River Liffey, with O’Connell’s Bridge connecting the two parts. 
+        Pubs (where much of the city’s social life is conducted), cafés, and restaurants abound, and Irish musicality rarely allows silence. 
+        On the north side, near the General Post Office, stand most of the remaining Georgian houses, built in the 18th century around squares, now side by side with glass and concrete offices and apartment blocks. Some of the finest monumental buildings stand on the north riverbank, as do the city’s poorest parts, maintaining a curious juxtaposition between the echoes of the politics and economic life of the past—aristocratic and impoverished—and the manifestations of the prosperous city of the present. Ireland’s national theatre, the Abbey, is just east of O’Connell Street, marked since 2002 by the Spire of Dublin, a 394-foot (120-metre) stainless steel landmark that proclaimed the street’s transformation with a pedestrian plaza and tree-lined boulevard. Together with a rash of new high-rise buildings, the spire has changed the character of the city and of the north side. Though Dublin has undergone modernization, and some areas—such as the narrow and winding streets of the Temple Bar district west of Trinity College—regularly play host to rowdy and raucous crowds, a strong sense of history and of a centuries-old capital pervades.
+        </p>
+       <a href="https://www.britannica.com/place/Dublin" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Seychelles.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Seychelles – Untouched Heavens </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Seychelles, one of the world’s smallest countries, is composed of two main island groups: the Mahé group of more than 40 central, mountainous granitic islands and a second group of more than 70 outer, flat, coralline islands. The islands of the Mahé group are rocky and typically have a narrow coastal strip and a central range of hills. 
+        The overall aspect of those islands, with their lush tropical vegetation, is that of high hanging gardens overlooking silver-white beaches and clear lagoons. The highest point in Seychelles, Morne Seychellois (2,969 feet [905 metres]), situated on Mahé, is located within this mountainous island group. The coralline islands, rising only a few feet above sea level, are flat with elevated coral reefs at different stages of formation. 
+        These islands are largely waterless, and very few have a resident population.
+Ecological conservation efforts on La Digue island
+Ecological conservation efforts on La Digue island
+Overview of La Digue island, Seychelles.See all videos for this article
+The climate is tropical oceanic, with little temperature variation during the year. Daily temperatures rise to the mid-80s F (low 30s C) in the afternoon and fall to the low 70s F (low 20s C) at night. Precipitation levels vary greatly from island to island; on Mahé, annual precipitation ranges from 90 inches (2,300 mm) at sea.
+          Wildlife includes a remarkably diverse array of marine life, including more than 900 identified species of fish; green sea turtles and giant tortoises also inhabit the islands. Endemic species include birds such as Seychelles bulbuls and cave-dwelling Seychelles swiftlets; several species of local tree frogs, snails, and wormlike caecilians; Seychelles wolf snakes and house snakes; tiger chameleons; and others. Endemic mammals are few; both fruit bats (Pteropus seychellensis) and Seychelles sheath-tailed bats (Coleura seychellensis) are endemic to the islands.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/australia.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Australia – Surfers’ Paradise </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Australia, the smallest continent and one of the largest countries on Earth, lying between the Pacific and Indian oceans in the Southern Hemisphere. Australia’s capital is Canberra, located in the southeast between the larger and more important economic and cultural centres of Sydney and Melbourne.
+The Australian mainland extends from west to east for nearly 2,500 miles (4,000 km) and from Cape York Peninsula in the northeast to Wilsons Promontory in the southeast for nearly 2,000 miles (3,200 km). To the south, Australian jurisdiction extends a further 310 miles (500 km) to the southern extremity of the island of Tasmania, and in the north it extends to the southern shores of Papua New Guinea. Australia is separated from Indonesia to the northwest by the Timor and Arafura seas, from Papua New Guinea to the northeast by the Coral Sea and the Torres Strait, from the Coral Sea Islands Territory by the Great Barrier Reef, from New Zealand to the southeast by the Tasman Sea, and from Antarctica in the far south by the Indian Ocean.
+
+Australia has been called “the Oldest Continent,” “the Last of Lands,” and “the Last Frontier.” Those descriptions typify the world’s fascination with Australia, but they are somewhat unsatisfactory. In simple physical terms, the age of much of the continent is certainly impressive—most of the rocks providing the foundation of Australian landforms were formed during Precambrian and Paleozoic time (some 4.6 billion to 252 million years ago)—but the ages of the cores of all the continents are approximately the same. On the other hand, whereas the landscape history of extensive areas in Europe and North America has been profoundly influenced by events and processes that occurred since late in the last Ice Age—roughly the past 25,000 years—in Australia scientists use a more extensive timescale that takes into account the great antiquity of the continent’s landscape. 
+        </p>
+       <a href="https://www.britannica.com/place/Australia" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-5">
+  <div class="container">
+    <div class="row">
+
+   
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/baku.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Baku, Azerbaijan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Baku is the capital city of Azerbaijan, a country located on the Caspian Sea. 
+         It is the largest city in Azerbaijan and a major cultural, economic, and political centre of the country. 
+         Baku has a rich history and culture, with evidence of human settlements dating back to the 4th millennium BCE. 
+         Today, Baku is a modern and vibrant city, known for its stunning architecture, beautiful parks, and bustling streets.
+         The capital city of Azerbaijan, Baku is situated around 92 feet below sea level making it the world’s lowest-lying national capital. The city is placed on the western shore of the Caspian Sea housing sunny beaches, eccentric museums, stylish theatres and much more. The city has something to offer everyone as the modern architecture creates a unique contrast with old city quarters. 
+          You can enjoy a hassle-free vacation here by exchanging your currency with Baku currency, i.e., Azerbaijani Manat.
+          The most convenient and fastest way to reach this city is by plane. Heydar Aliyev International Airport in Baku Azerbaijan receives flights from many cities around the globe. Regular flights are available from Dubai, Bahrain and Istanbul. You can easily get a taxi or bus from the airport to reach the city. 
+          This city also has train services available from some Russian cities, Kyiv in Ukraine and Moscow.
+        </p>
+       <a href="https://www.britannica.com/place/Baku" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/baku" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/paro.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Paro, Bhutan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">        
+        Paro, a charming town nestled in the heart of Bhutan, is a delightful blend of natural beauty, spiritual serenity, and cultural richness. With its verdant valleys, tranquil monasteries, and traditional architecture, Paro offers a unique and enchanting experience for every traveller.about-text
+        The ideal time to visit Paro is during spring (March to May) and autumn (September to November) when the weather is pleasant and the landscapes are at their most vibrant. 
+        These seasons also coincide with several colourful festivals, offering a glimpse into the rich cultural heritage of Bhutan.
+        Paro is home to Bhutan's only international airport, making it easily accessible from major cities around the world. 
+        For those travelling from India , Druk Air and Bhutan Airlines operate regular flights from cities like Delhi, Kolkataand Guwahati.
+        Paro offers a wealth of attractions, from exploring the iconic Tiger's Nest Monastery to strolling through the charming streets of Paro town. 
+        You can also visit the National Museum of Bhutan, take a dip in the hot springs, or enjoy a scenic hike through the beautiful Paro Valley.
+        Paro is home to some of Bhutan's most iconic landmarks and cultural treasures.Housed in a 17th-century watchtower, the National Museumof Bhutan offers fascinating insights into the country.
+        </p>
+       <a href="https://www.britannica.com/place/Bhutan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/paro" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/bali.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Bali, Indonesia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Bali Indonesia is also known as the Land of Gods. Bali allures through its natural beauty of terraced rice fields, numerous beautiful temples, and looming volcanoes. This tourist destination is all about a perfect vacation from picturesque beauty to fascinating adventurous water sports and spending hours on serene beaches. Even a full week is not sufficient to explore this wonderful island. 
+          Bali currency is Indonesian Rupiah (IDR).
+          Although Bali temperature is comfortable and ideal to explore its charm throughout the year, the best time to visit Bali is during the summer season starting from April to October.
+          This tourist destination is well-linked to major global cities through flights and water routes. Ngurah Rai International Airport is well-connected to major domestic and international cities. Indian metropolitan cities Chennai, Mumbai, Delhi, and Kolkata are connected to this tourist destination.
+          If you want to reach Bali tourist places through the water route, you can reach Singapore, Sumatra, or Java by flight, and from there you can travel by ferry to explore the sea route.
+          Wondering about the things to do in this tourist destination? This tourist destination is among the most memorable places to visit in the whole of Indonesia. A visit to this city can spur anyones senses. 
+        </p>
+       <a href="https://www.britannica.com/place/Bali-island-and-province-Indonesia" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/bali" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/hanoi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Hanoi, Vietnam </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">      
+        Hanoi, the art Capital of Vietnam, has so much history that it will take you back in time. With numerous places to visit in Hanoi, this ancient city has several world-class galleries and authentic restaurants in Hanoi. 
+        So, step into this journey as we tour the prime historical attractions of Hanoi Vietnam.  
+        They say that this city is the perfect spring and autumn destination. However, the peak season is from February to April, during which one can expect mild and pleasant weather. 
+        This period is the best time to visit Hanoi as you can engage in outdoor activities.
+        Tourists usually prefer to travel by air; via the NoiBai International Airport, which is 35 km from Hanoi city. The flights that originate from here are China Airlines, Asiana Airlines, Dragon Air, Hong Kong Airlines, Qatar Airways, etc. 
+        One can also take a train as daily service trains are available from the Hanoi Station.
+        The city has multiple offerings that tourists can opt for. However, the most recommended things to do in Hanoi include visiting the Hoa Lo Museum, sipping the famous coffee at Giang Café and exploring Vietnamese history. 
+        Some famous places to see in Hanoi are One Pillar Pagoda, Ho Chi Minh Mausoleum, St. Joseph's Cathedral, Temple of Literature, Opera House, etc.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/krabi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Krabi, Thailand </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Krabi Island is a coastal province on the eastern coast of Thailand. An indispensable jewel in the "land of smiles," Krabi is one of the most popular tourist destinations in Thailand. 
+        From tall limestone peaks to serene blue seas, and deep amazon alike rainforests, this tourist destination is the perfect nature blessing.
+        The best time to visit Phuket and Krabi, and any other destination in Thailand is anytime around the year, due to its tropical climate. 
+        However, the peak Krabi weather when tourists flock in numbers is from November to March. 
+        The Krabi International Airport daily operates several international and domestic airlines and is optimum for flying into this popular tourist destination. 
+        Apart from that, one can also avail of the train, but the nearest rail station - Trang is at least 2 hours away.
+        There are plenty of things to do in Krabi. This tourist destination has beaches that are perfect for sunbathing and swimming. 
+        The optimum Krabi temperature is also ideal for adventures in the luscious, green rainforests.
+        If you're looking for a relaxing beach getaway in the middle of the sea, it is the best time to visit Krabi. 
+        This small island is known for its beautiful beaches with white sand and crystal clear waters.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/mykonos.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Mykonos, Cyclades Islands </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Mykonos, a gem in the Aegean Sea, is a paradise for travelers seeking a blend of history, culture, and scenic beauty. 
+         This guide will unveil the top Mykonos tourist places that should be on your itinerary.  
+         An intrinsic part of the Cyclades Islands in the Aegean Sea, the Greek Island of Mykonos is all about age-old churches with stony white-washed façades, historical museums, exotic beaches, exciting bars and restaurants, dance clubs and luxury cruises.
+         A symbol of Mykonos' rich history, this architectural marvel is a must-see. Its unique structure and serene ambiance make it one of the top places to see in Mykonos.
+         Immerse yourself in the local culture and history at the Folklore Museum. It's one of the Mykonos attractions that offer a glimpse into the island's past.
+         Step back in time at Lena's House, a well-preserved 19th-century middle-class Mykonian residence. It's a famous place in Mykonos that offers a unique perspective on the island's history.
+         Home to a vast collection of artifacts from the island and nearby Delos, this museum is a must-visit for history buffs.
+          Aegean Maritime Museum:Discover the maritime history of the Aegean Sea at this museum. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/tokyo.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Tokyo, Japan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         You will love the stunning cherry blossoms, fairs and festivals. Revel in the rich art and heritage of Tokyo.
+        Known for its International, Tokyo is a hugely popular tourist spot. Thronged by tourists mainly during March, April and May, Tokyo is a tourists delight. Hanami, Sanja Matsuri, and Shogatsu are some of the most popular festivals that happen during the month of (April, May, and December consecutively.
+        While September, October and November are considered moderate season, (months) December, January and February are considered off-seasons to visit the place. In peak season, i.e., in March, April and May you can expect pleasant weather and clear days weather, in the moderate season you will experience warm and sunny days, with cool evenings; low humidity. 
+        In off-season the weather here is cold days with occasional snowfall.
+        In terms of activities, tourists enjoy getting indulged in the stunning cherry blossoms, fairs and festivals in the peak season, whereas in moderate season indulging in outdoor activities, the vivid autumn colours are the frequently enjoyed activities. However, if you are travelling in off-season you can enjoy escaping the crowd, new year celebrations and attending cultural fests.
+        Tourists love to enjoy Meiji Jingu, Ghibli Museum, Edo Tokyo Museum.  
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/kandy.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Kandy, Sri Lanka </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Kandy, the last royal capital of Sri Lanka, is a city steeped in history and culture. Nestled amidst lush hills, this city is a treasure trove of ancient temples, colonial architecture, and vibrant markets. As one of the most-visited tourist destinations in Sri LankaKandy has a charm that is both timeless and captivating.
+        The best time to visit Kandy is between December and April when the weather is dry and pleasant. This is the ideal time to explore the city and participate in local festivals, including the famous Esala Perahera. The Kandy weather during this period is quite tourist-friendly, making sightseeing and outdoor activities enjoyable.
+        Bandaranaike International Airport in Colombo is the closest international airport to Kandy. From there, you can take a taxi or a bus to reach Kandy. Sri Lanka also has an extensive railway network, and Kandy is well-connected to other major cities by train.
+        From exploring the sacred Temple of the Tooth Relicto strolling around the serene Kandy Lake, there's plenty to see and Things to do in Kandy. 
+        Don't miss out on visiting the Royal Botanical Gardens, which boasts a stunning collection of orchids, and the Kandy City Centre for some shopping. 
+        Amidst tea and spice plantations of Sri Lanka, Kandy showcases remnants of its colonial past. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/pattya.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Pattya, Modernity </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        There is no direct international connectivity to this city. The nearest international airport is located 30 km away, the U-Tapao Airport. You can also take a flight to Bangkok's Suvarnabhumi Airport and hire a taxi from there to reach this city.
+        This city is popular for its exuberant shopping destinations that tourists throng all year long. Evening strolls at the beaches, soothing massages, and delectable Thai cuisine just about sum up a perfect day in the city. Things to do in Pattaya is also hop along various bars and bistros measuring up the city's landscape.
+        This award-winning botanical garden is among the top Pattaya tourist places. This garden is dotted with waterfalls, a lake and orchid nurseries.
+        Sanctuary of Truth
+        This wood-carved architectural marvel features sculptures of various Hindu and Buddhist Gods. Here, you can also enjoy elephant rides as well as traditional boat rides.
+        Khao Kheow Open Zoo
+        The Khao Kheow Open Zoo gives a real close glimpse of the tropical floral and faunal variety found in this city. It can be a great place to visit with friends and family for nature lovers.
+        The Glass House Beachfront Restaurant
+        Located in a cool and secluded spot on Jomtien Beach, it is a great place for a romantic meal. It specializes in seafood and gives off cosy vibes.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/bangkok.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Bangkok, Thailand </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Bangkok Thailand is popular across the globe for its magnificent palaces, museums, skyscrapers, and markets. A trip to this city will definitely leave you spellbound. The pool of exotic islands that surround this city works like the cherry on the cake. Bangkok currency is the Thai baht (THB).
+        Although this city is a perennial destination, the best time to explore Bangkok tourism is from November to February. Bangkok temperature during these months is cooler and less humid. Bangkok weather in the winter season is extremely pleasant.
+        Bangkok City is well connected to other places domestically as well as internationally. There are two airports in the city: Suvarnabhumi Airport and Don Mueang Airport. Suvarnabhumi Airport is connected to major international cities via global airlines.
+      Whether you are looking to explore architecture, history, culture, nightlife, and food or just need a beachside holiday, Bangkok City will not dishearten you. When you search Bangkok famous for on Google, you will come across many astonishing things to do in Bangkok with your partner or friends. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/langkawi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Lang Kawi, Malaysia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Langkawi Malaysia is a cluster of 99 islands floating on the azure Andaman Sea. Separated from the mainland of Malaysia, this archipelago has something to offer to all kinds of vacationers. There are picturesque beaches infringed with coconut groves, water sports and adventure sports, luxury resorts, and much more.
+         The best time to visit Langkawi is during the dry season, which is between November and March, and mid-season which is between April and July. The dry season is the peak tourist season. Langkawi temperature ranges between 25° to 35° Celsius during the dry season. During mid-season, Langkawi weather is enjoyable with mild rain.
+         The closest airport to this city is the Langkawi International Airport. Though this airport is not connected to major cities in the world. The nearest airport connected to various parts of the world is the Kuala Lumpur International Airport.
+          There are various ways to get to this city. Most popularly, one can take a bus from Kuala Lumpur to Kuala Perlis where a ferry ride would take one to Langkawi. 
+          This city has something unique to offer to everybody.  
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/danang.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Da Nnag, France </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Da Nang is a stunning tourist destination that is nestled in the heart of Central Vietnam, . Currently, the fifth largest city in Vietnam, you will have a wonderful time exploring this scenic city. From clusters of marble mountains to stunning sandy beaches, there’s hardly anything missing from this picturesque city.
+         From February to May and then August to October is undoubtedly the best time to visit Da Nang. During these months, Da Nang weather is relatively mild and quite ideal for outdoor activities, sightseeing and beach exploration.
+          You can catch a flight and land at Da Nang International Airport, the only major airport serving this city, in order to reach the places to visit in Da Nang. If you are travelling from Hanoi or Ho Chi Minh City, you can board a train to Da Nang Railway Station via a train journey.
+          Apart from being a natural beauty, Da Nang Vietnam is the perfect example of modern development and cultural attraction as well. Hence, apart from all the typical places to see in Da Nang, tourists can enjoy delicious Vietnamese cuisines, experience the warm hospitality of locals and learn more about the local traditions and festivals.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+
+  </div>
+</div>
+</div>
+</section>
+    
+    <!-- ######## Footer Start Here ####### -->   
+    
+     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px; color: #000;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                </a>
+                <p style="color: lightseagreen;">Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start" style="gap: 5px; font-size: 14px;">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-microsoft"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-github-square"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-whatsapp-square"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="/about_us.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="/trending.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="/packages.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="/blog.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Travel blogs</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i> Contact us </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5" style="color: #000;">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p style="color: lightseagreen;"><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                <p style="color: lightseagreen;"><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                <p style="color: lightseagreen;"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let currentPosition = 0;
+        const sections = document.querySelectorAll('.gallery-section');
+        const totalSections = sections.length;
+        const gallery = document.getElementById('gallery');
+        const prevButton = document.getElementById('prevButton');
+        const nextButton = document.getElementById('nextButton');
+
+        nextButton.addEventListener('click', function () {
+            slideToSection((currentPosition + 1) % totalSections);
+        });
+
+        prevButton.addEventListener('click', function () {
+            slideToSection((currentPosition - 1 + totalSections) % totalSections);
+        });
+
+        function slideToSection(targetPosition) {
+            const targetSection = sections[targetPosition];
+            const translateValue = -calculateOffset(targetPosition);
+            currentPosition = targetPosition;
+
+            gallery.style.transition = "transform 0.5s ease-in-out"; // Optional: add smooth transition
+            gallery.style.transform = `translateX(${translateValue}px)`;
+
+            // Optional: Update content based on the section's ID
+            updateContent(targetSection.id);
+        }
+
+        function calculateOffset(targetPosition) {
+            let offset = 0;
+            for (let i = 0; i < targetPosition; i++) {
+                offset += sections[i].offsetWidth;
+            }
+            return offset;
+        }
+
+        // Optional: Update content based on the section's ID
+        function updateContent(sectionId) {
+            // Example: Update content based on the section's ID
+            const contentElement = document.getElementById('content');
+            contentElement.innerHTML = `Content for ${sectionId}`;
+        }
+    });
+</script>
+
+
+</body>
+</html>
+
+
+</body>
+</html>

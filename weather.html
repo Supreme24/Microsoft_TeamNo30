@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Trending Destinations.... </title>
+    <link rel="shortcut icon" href="/assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Weather/style.css" />
+
+    <style>
+ .gallery-container {
+    display: flex;
+    overflow: hidden;
+    width: 500%; /* Adjust width to accommodate five sections */
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-section {
+    flex: 0 0 20%; /* Each section takes up one-fifth of the container width */
+}
+</style>
+</head>
+
+<body>
+  
+    <!----- ############# Header ################ ----->
+    
+   <header class="container-fluid">
+       <div class="header-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 d-none d-sm-block contacthd">
+                  <p><a href=""> 
+                    <i class="fab fa-microsoft"  style="color: #FFF;"> Travel</i> </a>
+                    <span>/</span>
+                    <a href="">  <i class="fab fa-microsoft"  style="color: #FFF;"> Explore </i> </a>
+                    <span>/</span> 
+                    <a href=""><i class="fab fa-microsoft"  style="color: #FFF;"> Experience </i> </a></p>
+                </div>
+                <div class="col-sm-8">
+
+                  <ul class="social-login">
+                    <li>
+                      <a href="https://www.linkedin.com/in/aryaman-karmarkar-735a45258" style="color: #FFF;">
+                      <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://account.microsoft.com/profile/">  
+                      <i class="fab fa-microsoft"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      <i class="fab fa-instagram"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Supreme24">
+                      <i class="fab fa-github"  style="color: #FFF;"></i>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  
+                  <ul class="email">
+                    <li><i class="fa fa-envelope"></i>karmarkararyaman123@gmail.com </li>
+                  </ul>
+
+                  <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+                </div>
+              </div>
+            </div>
+       </div>
+
+        <div id="menu-jk" class="header-bottom" style="background-color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-3">
+                        <img src="assets/images/logo.png" alt="">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="navs d-none d-md-block col-md-9">
+                        <ul>
+                            <li><a href="index.html" style="color: darkgreen;">Home</a></li>
+                            <li><a href="about_us.html" style="color: darkgreen;">About Us</a></li>
+                        <li><a href="packages.html" style="color: darkgreen;">Packages</a></li>
+
+                            <li class="dropdown">
+                                <a href="" class="dropbtn" style="color: darkgreen;">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="/hotel destinations/index.html" style="color: darkblue;"> Hotel Packages </a>
+                                    <a href="#" style="color: darkblue;"> Travel Bookings</a>
+                                    <a href="/Weather/weather.html" style="color: darkblue;"> Weather Information </a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="" class="dropbtn" style="color: darkgreen;">Destinations</a>
+                                <div class="dropdown-content">
+                                    <a href="/gallery/index.html" style="color: darkblue;"> Gallery Images </a>
+                                    <a href="/trending.html" style="color: darkblue;"> Trending Destinations </a>
+                                </div>
+                            </li>
+                            <li><a href="/blog.html" style="color: darkgreen;">Blog</a></li>
+                            <li><a href="/contacts/contact us form/contact.html" style="color: darkgreen;">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </header>
+   
+       <!--  ************************* Page Title Starts Here ************************** -->
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2> Weather Information and Updates </h2>
+                <ul>
+                    <li> <a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><i class="fas fa-angle-double-right"></i> Our Packages</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!--################### Destinations Starts Here #######################--->
+    
+    <section id="header" class="jumbotron text-center" style="margin-top:2px;">
+     <h1 class="display-3" style="font-size: 40px; white-space: nowrap; font-weight: 700; color: rgb(63, 7, 63); background: blur(145px);">
+       "Stay Informed: Your Comprehensive Weather Update" </h1>
+     <div class="btn" style="margin-top: 15px;">
+        <button type="button" class="btn btn-primary" id="prevButton">Previous</button>
+        <button type="button" class="btn btn-secondary" id= "nextButton" style="padding: 5px 27px;">Next</button>
+     </div>
+    </section>
+ 
+  <section id="gallery" class="gallery-container">
+  <div class="gallery-section" id="section-1">
+  <div class="container">
+    <div class="row">
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/amritsar.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Legendary Sikh Shrine Golden Temple of Amritsar..</h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          For those planning on visiting this iconic Gurudwara, it's advised that you target the time frame spanning October through March this the best time to visit Amritsar. 
+          During this period, temperature levels typically fall within an agreeable range of roughly 10°C to 25°C, offering some relief from more extreme weather patterns seen in other months of the year.
+          Ample chances are offered to become fully immersed in local cultural practices via numerous festivals hosted on-site throughout each passing year. 
+          A couple of notable examples include Guru Nanak Jayanti held every November and Baisakhi coming up each April. 
+          Additionally, don't miss out on Diwali, a highly significant yearly event taking place between October and November.
+          The Golden Temple is spiritually the most significant shrine in Sikhism. It became a centre of the Singh Sabha Movement between 1883 and the 1920s, and the Punjabi Suba movement between 1947 and 1966. In the early 1980s, the gurdwara became a centre of conflict between the Indian government and a radical movement led by Jarnail Singh Bhindranwale.[13] In 1984, Prime Minister Indira Gandhi sent in the Indian Army as part of Operation Blue Star, leading to deaths of more than 1,000 soldiers, militants and civilians, as well as causing much damage to the gurdwara and the destruction of Akal Takht. 
+          The gurdwara complex was rebuilt again after the 1984 damage.
+        </p>
+       <a href="https://www.britannica.com/topic/Golden-Temple" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+
+     <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Swiss.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Swiss Alps.. </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Snow-covered mountains, charming towns and flower-strewn meadows make the Swiss Alps a year-round fairy tale destination. 
+          Visit in the winter for world-class skiing (and après-ski fondue and drinks) in locales such as the exclusive St. Moritz and the picturesque Zermatt, home of the craggy Matterhorn. 
+          Opt for warmer months to hike through the verdant valleys of Swiss National Park or attend lively festivals in the foothill city of Montreux. 
+          Regardless of the time of year, no trip would be complete without a visit to the Jungfrau Region, where you can experience idyllic mountain villages like Grindelwald and Mürren or take the Jungfrau Railway to Europe's highest railway station.
+          Skiers flock to Zermatt every winter to experience some of the best slopes in the world.
+          The Alpine region of Switzerland, conventionally referred to as the Swiss Alps,[1] represents a major natural feature of the country and is, along with the Swiss Plateau and the Swiss portion of the Jura Mountains, one of its three main physiographic regions. The Swiss Alps extend over both the Western Alps and the Eastern Alps, encompassing an area sometimes called Central Alps. 
+          While the northern ranges from the Bernese Alps to the Appenzell Alps are entirely in Switzerland, the southern ranges from the Mont Blanc massif to the Bernina massif are shared with other countries such as France, Italy, Austria and Liechtenstein.
+        </p>
+       <a href="https://www.britannica.com/place/Bernese-Alps" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+
+     <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/azure.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Azores Islands, Portugal </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Although technically part of Portugal, the Azores islands seem like a world away from the mainland. 
+          The remote archipelago of volcanic islands sits in the mid-Atlantic, and is often described as the “Hawaii of Europe”. 
+          And with rugged landscapes and deep-blue waters, it’s not hard to see why – although its temperatures are subtropical and milder. 
+          This is ideal if you need to get away from city heat in the summer. 
+          The Azores is a place to escape into natural beauty, and it’s home to two of Portugal’s 15 Unesco World Heritage Sites including the historic city of Angra do Heroismo on the island of Terceira and the ancient vineyards of Pico. 
+          If you’re short on time and aren’t sure where to start – the largest and most accessible of the islands is Sao Miguel.
+          There are nine major Azorean islands and an islet cluster, in three main groups. These are Flores and Corvo, to the west; Graciosa, Terceira, São Jorge, Pico, and Faial in the centre; and São Miguel, Santa Maria, and the Formigas islets to the east. They extend for more than 600 km (370 mi) and lie in a northwest–southeast direction. All of the islands have volcanic origins, although some, such as Santa Maria, have had no recorded activity in the time since the islands were settled several centuries ago. Mount Pico, on the island of Pico, is the highest point in Portugal, at 2,351 m (7,713 ft). 
+          If measured from their base at the bottom of the ocean to their peaks.
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>
+    
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-2">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/denmark.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Copenhagen, Denmark </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          The stylish, and apparently incredibly happy Danish capital offers a European City break with a mix of urban life and natural beauty. 
+          Whether you’re visiting for architecture, canal wandering, or visiting galleries  – the best way to get around is to act like a Dane and get on a bike. 
+          On hot days, you can cool off at one of the free outdoor baths like The Kastrup Sea Bath, or  the ‘Copencanbana’ aka Fisketorvet baths.
+          The city itself is full of green spaces like The King’s Garen and Ørstedsparken, but Amager Beach is a short bike ride away. 
+          You can also rent kayaks and paddleboards there. Copenhagen is also a short train ride away from Kronborg castle, which was the inspiration for Elsinore in Shakespeare’s Hamlet. 
+          And for wilder landscapes, visit Anholt, an island in the middle of the Kattegat sea which is covered in wildflowers which is also Northern Europe’s largest desert. 
+          A small village existed on the site of the present city by the early 10th century. In 1167 Bishop Absalon of Roskilde built a castle on an islet off the coast and fortified the town with ramparts and a moat. In 1445 Copenhagen was made the capital of Denmark and the residence of the royal family. In the civil and religious conflicts of the Protestant Reformation, the town was often sacked. During the late 16th century Copenhagen’s trade began to flourish, and the city itself expanded. Among the new buildings erected were the Børsen (Exchange), the Holmens Church, Trinitatis Church, with the adjacent famous Round Tower, and the castle of Rosenborg (now the museum of the royal family). During the wars with Sweden (1658–60) Copenhagen was besieged for two years. Fires in 1728 and 1795 destroyed many houses and buildings, and in 1807 the city was bombarded by the British. 
+        </p>
+       <a href="https://www.britannica.com/place/Copenhagen" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/corsica.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Corsica, France </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The fourth-largest island in the Mediterranean has some of the most varied landscapes in the whole of Europe. 
+         It was ruled by the Republic of Genoa between the 13th and 18th centuries, but has been part of France since 1796 although Italian culture is still present on the island alongside the French. Corsica is also the home of the challenging GR20 trail, with the reputation for being the hardest long-distance trek in Europe. Considering that 75% of people fail to complete the mountainous course that spans the length of Corsica, it’s one for serious hikers only. 
+         But if you don’t fancy a two-week-long trek, there is plenty more history and nature to explore on the island. 
+         You can visit bronze age ruins to see over 200 megaliths at Palaggiu, and if scuba diving is your thing then visit Scandola Nature Reserve, and take in the dramatic views from the fortress in Cotre.
+        Corsica, collectivité territoriale (territorial collectivity) of France and island in the Mediterranean Sea embracing (from 1976) the départements of Haute-Corse and Corse-du-Sud. Corsica is the fourth largest island (after Sicily, Sardinia, and Cyprus) in the Mediterranean. It lies 105 miles (170 km) from southern France and 56 miles (90 km) from northwestern Italy, and it is separated from Sardinia by the 7-mile (11-km) Strait of Bonifacio. Ajaccio is the capital. Although Corsica is still commonly described as one of 22 régions of metropolitan France, its official status was changed in 1991 from région to collectivité territoriale à statut particulier (territorial collectivity with special status). 
+        The unique classification provides Corsica greater autonomy than the régions. Area 3,352 square miles (8,681 square km). Pop. (1999) 260,196; (2014 est.) 324,212.
+        </p>
+       <a href="https://www.britannica.com/place/Corsica" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/gauja.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Gauja National Park, Latvia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          A short drive from the capital Riga takes you to Gauja National Park, which is around 230 acres of green forest and the largest national park in Latvia. 
+          There are many species of mammals in Gauja National Park although some are easier to spot, but with a bit of planning. The national park is also a good base for other activities like kayaking on the river Gauja.
+          A short drive from the capital Riga takes you to Gauja National Park, which is around 230 acres of green forest and the largest national park in Latvia. It’s a highly biodiverse park, filled with forest trails and a haven for hikers and nature lovers. The lush green park is also filled with rock formations, cliffs and caves as well as an abundance of wildlife. 
+          National park, an area set aside by a national government for the preservation of the natural environment. A national park may be set aside for purposes of public recreation and enjoyment or because of its historical or scientific interest. Most of the landscapes and their accompanying plants and animals in a national park are kept in their natural state.  
+          It is generally thought that the concept of a park or nature reserve under state ownership originated in the United States in 1870 and that the world’s first such park was Yellowstone National Park in Wyoming, created through legislation signed by U.S. Pres. Ulysses S. Grant in 1872. 
+          However, some naturalists and others have argued that there is evidence that indicates that the creation of Yellowstone was predated by the creation of Bogd Khan Mountain National Park in Mongolia, which may date from as early as 1778.
+          There are many species of mammals in Gauja National Park although some are easier to spot, but with a bit of planning, you might see stags, elk, wolves, lynx, otters and bats. 
+        </p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-3">
+  <div class="container">
+    <div class="row">
+      
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/TAJ.JPG" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Taj Mahal, Agra </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Taj Mahal, mausoleum complex in Agra, western Uttar Pradesh state, northern India. The Taj Mahal was built by the Mughal emperor Shah Jahān (reigned 1628–58) to immortalize his wife Mumtaz Mahal (“Chosen One of the Palace”), who died in childbirth in 1631, having been the emperor’s inseparable companion since their marriage in 1612. India’s most famous and widely recognized building, it is situated in the eastern part of the city on the southern (right) bank of the Yamuna (Jumna) River. Agra Fort (Red Fort), also on the right bank of the Yamuna, is about 1 mile (1.6 km) west of the Taj Mahal.
+          In its harmonious proportions and its fluid incorporation of decorative elements, the Taj Mahal is distinguished as the finest example of Mughal architecture, a blend of Indian, Persian, and Islamic styles. Other attractions include twin mosque buildings (placed symmetrically on either side of the mausoleum), lovely gardens, and a museum. One of the most beautiful structural compositions in the world, the Taj Mahal is also one of the world’s most iconic monuments, visited by millions of tourists each year. The complex was designated a UNESCO World Heritage site in 1983.
+        </p>
+       <a href="https://www.britannica.com/topic/Taj-Mahal" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Varanasi.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Varanasi, India </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Varanasi subsequently declined during three centuries of Muslim occupation, beginning in 1194. Many of the city’s Hindu temples were destroyed during the period of Muslim rule, and learned scholars fled to other parts of the country. The Mughal emperor Akbar in the 16th century brought some relief to the city’s religious and cultural activities. There was another setback during the reign of the Mughal emperor Aurangzeb in the late 17th century, but later the Marathas sponsored a new revival. Varanasi became an independent kingdom in the 18th century, and under the subsequent British rule it remained a commercial and religious centre.
+        In 1910 the British made Varanasi a new Indian state, with Ramnagar (on the opposite bank) as headquarters but with no jurisdiction over the city of Varanasi. In 1947, after Indian independence, the Varanasi state became part of the state of Uttar Pradesh.
+        Varanasi has the finest river frontage in India, with miles of ghats, or steps, for religious bathing; an array of shrines, temples, and palaces rises tier on tier from the water’s edge. The inner streets of the city are narrow, winding, and impassable for motor traffic; the newer outer suburbs are more spacious and are laid out more systematically.  
+        </p>
+       <a href="https://www.britannica.com/place/Varanasi" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/rajasthan.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;">  Rajasthan: The Desert Rose </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         The Aravalli (Aravali) Range forms a line across the state running roughly from Guru Peak on Mount Abu (5,650 feet [1,722 metres]), near the town of Abu in the southwest, to the town of Khetri in the northeast. About three-fifths of the state lies northwest of that line, leaving the remaining two-fifths in the southeast. Those are the two natural divisions of Rajasthan. The northwestern tract is generally arid and unproductive, although its character shifts gradually from desert in the far west and northwest to comparatively fertile and habitable land toward the east. The region includes the Thar (Great Indian) Desert.
+          The southeastern area lies at a somewhat higher elevation than its northwestern counterpart; it also is more fertile and has a more-diverse topography. 
+          The hilly tract of Mewar lies in the southern region, while a broad plateau stretches across the southeast. In the northeast a rugged badlands region follows the line of the Chambal River.  
+          Before 1947, when India achieved independence from British rule, it comprised some two dozen princely states and chiefships, the small British-administered province of Ajmer-Merwara, and a few pockets of territory outside the main boundaries.  
+        </p>
+       <a href="https://www.britannica.com/place/Rajasthan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-4">
+  <div class="container">
+    <div class="row">
+
+   
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Mauritius.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Mauritius – Tropical Paradise </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Mauritius lies about 500 miles (800 km) east of Madagascar in the Indian Ocean. Its outlying territories are Rodrigues Island, situated about 340 miles (550 km) eastward, the Cargados Carajos Shoals, 250 miles (400 km) northeastward, and the Agalega Islands, 580 miles (930 km) northward from the main island. 
+         Mauritius also claims sovereignty over the Chagos Archipelago (including Diego Garcia), some 1,250 miles (2,000 km) to the northeast, although this claim is disputed by Britain.
+         If you are looking for an international destination and thinking about where to go in October, Mauritius is the perfect destination for you. Being a tropical paradise, Mauritius enjoys toasty temperatures all year round. 
+         Hence, it is one of the places to travel in October in the world. In October, the weather is warmer and drier and the humidity levels are significantly low. Sunny weather is guaranteed along the west coast.
+          From exploring the Black River Gorges National Park and Underwater Waterfalls to partying at Grand Baie/Flic en Flac during the weekend, there are several recreational activities worth pursuing here. Making your hotel and flight reservations a month in advance is highly recommended.
+        </p>
+       <a href="https://www.britannica.com/place/Mauritius" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div>   
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Mexico.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Mexico – Architectural Wonders </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Mexico, country of southern North America and the third largest country in Latin America, after Brazil and Argentina. Mexican society is characterized by extremes of wealth and poverty, with a limited middle class wedged between an elite cadre of landowners and investors on the one hand and masses of rural and urban poor on the other. But in spite of the challenges it faces as a developing country, Mexico is one of the chief economic and political forces in Latin America. It has a dynamic industrial base, vast mineral resources, a wide-ranging service sector, and the world’s largest population of Spanish speakers—about two and a half times that of Spain or Colombia. As its official name suggests, the Estados Unidos Mexicanos (United Mexican States) incorporates 31 socially and physically diverse states and the Federal District.
+          More than half of the Mexican people live in the centre of the country, whereas vast areas of the arid north and the tropical south are sparsely settled. Migrants from impoverished rural areas have poured into Mexico’s cities, and nearly four-fifths of Mexicans now live in urban areas. Mexico has experienced a series of economic booms leading to periods of impressive social gains.
+        </p>
+       <a href="https://www.britannica.com/place/Mexico" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/Spain.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Spain – Culinary Feast </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+        Spain, country located in extreme southwestern Europe. It occupies about 85 percent of the Iberian Peninsula, which it shares with its smaller neighbour Portugal.
+        It was in this rural setting that Miguel de Cervantes’s Don Quixote tilted at the tall windmills that still dot the landscape in several places. In the country’s northeast are the broad valley of the Ebro River, the mountainous region of Catalonia, and the hilly coastal plain of Valencia. To the northwest is the Cantabrian Mountains, a rugged range in which heavily forested, rain-swept valleys are interspersed with tall peaks. To the south is the citrus-orchard-rich and irrigated lands of the valley of the Guadalquivir River, celebrated in the renowned lyrics of Spanish poets Federico García Lorca and Antonio Machado; over this valley rises the snowcapped Sierra Nevada. The southern portion of the country is desert, an extension of the Sahara made familiar to Americans through the “spaghetti western” films of the 1960s and early ’70s. Lined with palm trees, rosemary bushes, and other tropical vegetation, the southeastern Mediterranean coast and the Balearic Islands enjoy a gentle climate, drawing millions of visitors and retirees, especially from northern Europe.
+        </p>
+       <a href="https://www.britannica.com/place/Spain" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+  </div>
+</div>
+</div>
+
+<div class="gallery-section" id="section-5">
+  <div class="container">
+    <div class="row">
+
+   
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/baku.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: goldenrod; font-weight: 700;"> Baku, Azerbaijan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+         Baku is the capital city of Azerbaijan, a country located on the Caspian Sea. 
+         It is the largest city in Azerbaijan and a major cultural, economic, and political centre of the country. 
+         Baku has a rich history and culture, with evidence of human settlements dating back to the 4th millennium BCE. 
+         Today, Baku is a modern and vibrant city, known for its stunning architecture, beautiful parks, and bustling streets.
+         The capital city of Azerbaijan, Baku is situated around 92 feet below sea level making it the world’s lowest-lying national capital. The city is placed on the western shore of the Caspian Sea housing sunny beaches, eccentric museums, stylish theatres and much more. The city has something to offer everyone as the modern architecture creates a unique contrast with old city quarters. 
+          You can enjoy a hassle-free vacation here by exchanging your currency with Baku currency, i.e., Azerbaijani Manat.
+          The most convenient and fastest way to reach this city is by plane. Heydar Aliyev International Airport in Baku Azerbaijan receives flights from many cities around the globe. Regular flights are available from Dubai, Bahrain and Istanbul. You can easily get a taxi or bus from the airport to reach the city. 
+          This city also has train services available from some Russian cities, Kyiv in Ukraine and Moscow.
+        </p>
+       <a href="https://www.britannica.com/place/Baku" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/baku" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/paro.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green; font-weight: 700;"> Paro, Bhutan </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">        
+        Paro, a charming town nestled in the heart of Bhutan, is a delightful blend of natural beauty, spiritual serenity, and cultural richness. With its verdant valleys, tranquil monasteries, and traditional architecture, Paro offers a unique and enchanting experience for every traveller.about-text
+        The ideal time to visit Paro is during spring (March to May) and autumn (September to November) when the weather is pleasant and the landscapes are at their most vibrant. 
+        These seasons also coincide with several colourful festivals, offering a glimpse into the rich cultural heritage of Bhutan.
+        Paro is home to Bhutan's only international airport, making it easily accessible from major cities around the world. 
+        For those travelling from India , Druk Air and Bhutan Airlines operate regular flights from cities like Delhi, Kolkataand Guwahati.
+        Paro offers a wealth of attractions, from exploring the iconic Tiger's Nest Monastery to strolling through the charming streets of Paro town. 
+        You can also visit the National Museum of Bhutan, take a dip in the hot springs, or enjoy a scenic hike through the beautiful Paro Valley.
+        Paro is home to some of Bhutan's most iconic landmarks and cultural treasures.Housed in a 17th-century watchtower, the National Museumof Bhutan offers fascinating insights into the country.
+        </p>
+       <a href="https://www.britannica.com/place/Bhutan" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/paro" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+    
+   <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="/assets/images/trending/bali.jpg" alt="" class="card-img-top" height="335px">
+      <div class="card-body">
+        <h5 class="card-title" style="color: darkmagenta; font-weight: 700;"> Bali, Indonesia </h5>
+        <p class="card-text" style="font-size: 14px; font-weight: 700; color: #000; margin-bottom: 14px;">
+          Bali Indonesia is also known as the Land of Gods. Bali allures through its natural beauty of terraced rice fields, numerous beautiful temples, and looming volcanoes. This tourist destination is all about a perfect vacation from picturesque beauty to fascinating adventurous water sports and spending hours on serene beaches. Even a full week is not sufficient to explore this wonderful island. 
+          Bali currency is Indonesian Rupiah (IDR).
+          Although Bali temperature is comfortable and ideal to explore its charm throughout the year, the best time to visit Bali is during the summer season starting from April to October.
+          This tourist destination is well-linked to major global cities through flights and water routes. Ngurah Rai International Airport is well-connected to major domestic and international cities. Indian metropolitan cities Chennai, Mumbai, Delhi, and Kolkata are connected to this tourist destination.
+          If you want to reach Bali tourist places through the water route, you can reach Singapore, Sumatra, or Java by flight, and from there you can travel by ferry to explore the sea route.
+          Wondering about the things to do in this tourist destination? This tourist destination is among the most memorable places to visit in the whole of Indonesia. A visit to this city can spur anyones senses. 
+        </p>
+       <a href="https://www.britannica.com/place/Bali-island-and-province-Indonesia" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="https://www.makemytrip.com/tripideas/places/bali" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div>
+     </div>
+    </div> 
+
+
+  </div>
+</div>
+</div>
+</section>
+
+
+
+<section style="margin-top: -45px;">
+    <h1 class="head" style="margin-bottom: 245px;">Weather Information</h1>
+    <div class="containerpage">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g. Delhi, Kolkata, Mumbai">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>_______ ( ______ )</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<div class="about-us container-fluid" style="color: #000;">
+
+            <div class="container">
+
+                <div class="row natur-row no-margin w-100">
+                    <div class="text-part col-md-6"
+                        style="padding: 30px 1px; top: 0;">
+                        <h2>Weather Information : </h2>
+
+                        <p>    
+                        In the realm of weather information, the current conditions serve as the foundation upon which forecasts and preparations are built. At any given moment, the temperature sets the stage for our immediate comfort or discomfort, while humidity levels influence how we perceive the air around us. Wind speed and direction offer insights into the movement of weather systems, shaping our experiences outdoors. Barometric pressure provides clues about impending changes in weather patterns, from the approach of a storm to the arrival of fair weather. Visibility plays a crucial role in our safety and daily activities, affecting travel plans and outdoor visibility. Together, these dynamic elements paint a picture of the present atmospheric state, guiding our decisions and enhancing our understanding of the ever-changing world around us.</p>
+
+                        <h2> Current Conditions: </h2>
+                        <p>
+                       In the dynamic realm of current weather conditions, every moment presents a new snapshot of atmospheric activity. As the sun rises and sets, temperatures fluctuate, winds shift, and skies transition from clear to cloudy and back again. At any given instant, the thermometer may register a balmy warmth or a chilling cold, while humidity levels ebb and flow, shaping the moisture content in the air. Wind currents sweep across landscapes, their intensity varying from gentle breezes to blustery gusts, and their direction determining the path of weather systems. Barometric pressure rises and falls, a subtle but significant indicator of atmospheric stability or disturbance. In this ever-changing tapestry of meteorological phenomena, each instant holds the promise of new insights and observations, inviting us to witness the dynamic dance of nature unfolding before our eyes.</p>
+
+                         <h2> Vision </h2>
+                        <p> Our vision at Ultimate Travel Companion, is to be the foremost innovator and leader in the travel industry, setting the standard for transformative and responsible exploration. 
+                            We envision a future where every traveler feels a profound connection to the destinations they visit, where cultural understanding and environmental stewardship are at the forefront of every adventure. 
+                            Through cutting-edge technology, personalized experiences, and a commitment to ethical tourism, we aim to be the go-to platform for those seeking not just a vacation but a transformative journey. 
+                            Our vision extends beyond providing exceptional travel services; we aspire to be a global force for positive change, shaping a world where travel fosters unity, appreciation, and a shared responsibility for the beauty of our planet. </p>
+
+                    </div>
+                    <div class="image-part col-md-6">
+                        <img src="/we1.jpg" alt width="800px"
+                            height="800px" style="margin-left: 74px;">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="row natur-row no-margin w-100">
+                    <div class="text-part col-md-6" style="margin-top: 75px;">
+
+
+                    <h2> Forecast: </h2>
+
+                        <p> In the intricate web of weather forecasting, we peer into the future, predicting the atmospheric conditions that will shape our days ahead. From the highs and lows of temperature to the probability of precipitation, each element of the forecast offers a glimpse into what tomorrow holds. Temperature forecasts guide our choice of attire, while precipitation probabilities inform our plans for outdoor activities. Wind speed and direction provide insights into potential gusts or breezes that may accompany us throughout the day. Sunrise and sunset times mark the passage of time, framing our activities within the rhythm of nature. As we navigate the complexities of weather forecasting, we gain a greater appreciation for the interconnectedness of atmospheric phenomena and their impact on our daily lives.
+
+                        </p>
+
+                        <h2> Severe Weather Alerts: </h2>
+
+                        <p>
+                          In the realm of severe weather alerts, vigilance is paramount as nature's fury can strike with little warning. These alerts serve as beacons of caution, signaling the potential for hazardous conditions that demand our attention and preparedness. Whether it's the rumble of thunder heralding an approaching storm or the ominous swirl of clouds indicating the presence of a tornado, these alerts prompt us to take swift action to protect ourselves and our communities. Extreme heat advisories remind us to stay hydrated and seek shelter from scorching temperatures, while coastal flood warnings prompt residents to evacuate low-lying areas in anticipation of rising tides. With each alert comes a call to action, urging us to heed the warnings of nature and unite in our efforts to safeguard lives and property against the forces of the elements.
+                        </p>
+
+                          <h2> Air Quality Index (AQI): </h2>
+
+                        <p> In the intricate tapestry of environmental health, the Air Quality Index (AQI) serves as a crucial barometer, offering insights into the quality of the air we breathe. Ranging from good to hazardous, the AQI categorizes air quality based on pollutants such as particulate matter, ozone, carbon monoxide, sulfur dioxide, and nitrogen dioxide. With each category comes a corresponding set of health implications, from minimal risk on clear days to potential respiratory distress during times of elevated pollution levels. This index not only informs individuals with pre-existing health conditions to take precautions but also empowers communities to implement measures to reduce emissions and improve air quality for all. As we navigate the complexities of urbanization and industrialization, the AQI stands as a beacon of awareness, guiding us towards a future where clean, breathable air is a universal right rather than a luxury.
+
+                        </p>
+                    </div>
+                    <div class="image-part col-md-6">
+                        <img src="/we2.jpg" alt width="900px"
+                            height="900px" style="margin-left: 74px;">
+                    </div>
+
+                </div>
+
+            </div>
+            <br> <br>
+
+             <div class="container">
+
+                <div class="row natur-row no-margin w-100">
+                    <div class="text-part col-md-6"
+                        style="margin-top: 75px;">
+                        <h2>  UV Index: </h2>
+                        <p> 
+                            Within the spectrum of solar radiation, the Ultraviolet (UV) Index acts as a sentinel, warning of the potential dangers posed by excessive sun exposure. Ranging from low to extreme, this index quantifies the intensity of UV radiation reaching the Earth's surface at a given time and location. A low UV index signifies minimal risk, while a high index signals heightened potential for sunburn and skin damage. As the index climbs, so too does the importance of protective measures such as sunscreen application, wearing protective clothing, and seeking shade during peak sun hours. By heeding the warnings of the UV Index, individuals can mitigate the risk of sun-related ailments, safeguarding their skin health for the long term. As we embrace outdoor activities and bask in the warmth of the sun, let us remain vigilant to the ever-present threat of UV radiation, ensuring that our enjoyment of nature is balanced with responsible sun protection practices. <br> 
+                        </p>
+
+                        
+                            <h2> Weather Radar and Satellite Imagery: </h2>
+                            <p> 
+
+                           In the realm of meteorological observation, weather radar and satellite imagery stand as powerful tools, providing a bird's-eye view of atmospheric conditions and phenomena. Weather radar, with its sweeping arcs and colorful displays, offers real-time insights into precipitation patterns, storm movement, and the intensity of weather systems. By detecting the size, shape, and velocity of raindrops or snowflakes, radar helps forecasters track storms and issue timely warnings to protect life and property.
+
+                            On the other hand, satellite imagery offers a broader perspective, capturing the vast expanse of Earth's atmosphere from space. These images reveal the intricate dance of clouds, the formation of weather systems, and the ebb and flow of atmospheric circulation. With infrared and visible light sensors, satellites can detect cloud cover, temperature gradients, and even atmospheric pollutants, providing valuable data for weather forecasting, climate monitoring, and environmental research.
+
+                            Together, weather radar and satellite imagery paint a comprehensive picture of the dynamic interplay between Earth's atmosphere and weather systems. By harnessing the power of technology and innovation, meteorologists gain the insights needed to anticipate and respond to changing weather conditions, ensuring the safety and well-being of communities around the globe.
+                        </p>
+
+                    </div>
+
+                      <div class="image-part col-md-6">
+                        <img src="/assets/4.jpg" alt width="900px"
+                            height="800px" style="margin-left: 74px;">
+                    </div>
+                   
+
+                </div>
+
+            </div>
+        </div>
+
+    
+    <!-- ######## Footer Start Here ####### -->   
+    
+     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px; color: #000;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                </a>
+                <p style="color: lightseagreen;">Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start" style="gap: 5px; font-size: 14px;">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-microsoft"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-github-square"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-whatsapp-square"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="/about_us.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="/trending.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="/packages.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="/blog.html" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Travel blogs</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i> Contact us </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5" style="color: #000;">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                    <a class="text-white-50 mb-2" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="#" style="color: lightseagreen;"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p style="color: lightseagreen;"><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                <p style="color: lightseagreen;"><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                <p style="color: lightseagreen;"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let currentPosition = 0;
+        const sections = document.querySelectorAll('.gallery-section');
+        const totalSections = sections.length;
+        const gallery = document.getElementById('gallery');
+        const prevButton = document.getElementById('prevButton');
+        const nextButton = document.getElementById('nextButton');
+
+        nextButton.addEventListener('click', function () {
+            slideToSection((currentPosition + 1) % totalSections);
+        });
+
+        prevButton.addEventListener('click', function () {
+            slideToSection((currentPosition - 1 + totalSections) % totalSections);
+        });
+
+        function slideToSection(targetPosition) {
+            const targetSection = sections[targetPosition];
+            const translateValue = -calculateOffset(targetPosition);
+            currentPosition = targetPosition;
+
+            gallery.style.transition = "transform 0.5s ease-in-out"; // Optional: add smooth transition
+            gallery.style.transform = `translateX(${translateValue}px)`;
+
+            // Optional: Update content based on the section's ID
+            updateContent(targetSection.id);
+        }
+
+        function calculateOffset(targetPosition) {
+            let offset = 0;
+            for (let i = 0; i < targetPosition; i++) {
+                offset += sections[i].offsetWidth;
+            }
+            return offset;
+        }
+
+        // Optional: Update content based on the section's ID
+        function updateContent(sectionId) {
+            // Example: Update content based on the section's ID
+            const contentElement = document.getElementById('content');
+            contentElement.innerHTML = `Content for ${sectionId}`;
+        }
+    });
+</script>
+
+<script src="/Weather/script.js"></script>
+</body>
+</html>
+
+
+</body>
+</html>
